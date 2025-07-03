@@ -1,0 +1,432 @@
+{
+  "industry": "Services",
+  "survey_questions": [
+    {
+      "question": "How does your firm establish its information security framework,...g policies, allocating roles, and ensuring management oversight?",
+      "answer_set": [
+        "We have no formal security policies or defined roles.",
+        "Policies exist but are outdated, not approved by management, or poorly communicated. Roles are informally understood.",
+        "Policies are defined, approved, and communicated. Key security roles and responsibilities are allocated. Management requires personnel to follow policies.",
+        "A comprehensive ISMS is in place with a full suite of policies, formally defined and allocated roles, and active management engagement. Policies are regularly reviewed and acknowledged by all personnel."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.1",
+          "title": "Policies for information security",
+          "description": "Information security policy and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel and relevant interested parties, and reviewed at planned intervals and if significant changes occur."
+        },
+        {
+          "control_no": "5.2",
+          "title": "Information security roles and responsibilities",
+          "description": "Information security roles and responsibilities shall be defined and allocated according to the organization needs."
+        },
+        {
+          "control_no": "5.4",
+          "title": "Management responsibilities",
+          "description": "Management shall require all personnel to apply information security in accordance with the established information security policy, topic-specific policies and procedures of the organization."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "The 12 Elements of an Information Security Policy",
+            "url": "https://www.exabeam.com/explainers/information-security/the-12-elements-of-an-information-security-policy/"
+          },
+          {
+            "title": "IT management and security in the modern age: Moving away from fragmentation towards seamless success",
+            "url": "https://www.itpro.com/security/it-management-and-security-in-the-modern-age-moving-away-from-fragmentation-towards-seamless-success"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations",
+            "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+          },
+          {
+            "title": "High impact - Glossary | CSRC",
+            "url": "https://csrc.nist.gov/glossary/term/high_impact"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your approach to identifying, classifying, and protecting client data and your firm's own intellectual property?",
+      "answer_set": [
+        "We do not maintain an asset inventory or have a data classification scheme.",
+        "An informal inventory exists for major assets. We understand some data is sensitive, but have no formal rules for its handling or use.",
+        "We maintain an inventory of key information assets with assigned owners. A data classification scheme is defined and applied to client and internal data, with acceptable use rules.",
+        "A comprehensive, up-to-date inventory of all information assets is maintained. All data is classified, labelled, and protected according to formal policies for acceptable use, transfer, and handling, based on its sensitivity."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.9",
+          "title": "Inventory of information and other associated assets",
+          "description": "An inventory of information and other associated assets, including owners, shall be developed and maintained."
+        },
+        {
+          "control_no": "5.1",
+          "title": "Acceptable use of information and other associated assets",
+          "description": "Rules for the acceptable use and procedures for handling information and other associated assets shall be identified, documented and implemented."
+        },
+        {
+          "control_no": "5.12",
+          "title": "Classification of information",
+          "description": "Information shall be classified according to the information security needs of the organization based on confidentiality, integrity, availability and relevant interested party requirements."
+        },
+        {
+          "control_no": "5.32",
+          "title": "Intellectual property rights",
+          "description": "The organization shall implement appropriate procedures to protect intellectual property rights."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Data Classification: Why It's Important and How To Do It",
+            "url": "https://kirkpatrickprice.com/blog/classifying-data/"
+          },
+          {
+            "title": "Data classification – A necessity to secure your business",
+            "url": "https://www.sisainfosec.com/blogs/data-classification-a-necessity-to-secure-your-business/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "NIST SP 800-60 Volume I Revision 1: Guide for Mapping Information Types",
+            "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-60v1r1.pdf"
+          },
+          {
+            "title": "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations",
+            "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you manage the full lifecycle of user access to client data and internal systems, from onboarding a new employee to their departure?",
+      "answer_set": [
+        "We use shared or generic accounts; access is not revoked promptly upon termination.",
+        "User accounts are created and removed manually. Access is granted on request, not by role, and reviews are infrequent. Assets are not always returned upon termination.",
+        "A formal process exists for provisioning/de-provisioning access based on roles. A 'leaver' process includes returning company assets. Privileged access is restricted.",
+        "An automated IAM system enforces role-based access control and least privilege. Access rights are provisioned, reviewed, and revoked immediately and automatically based on employment status. A formal process ensures all assets are returned upon termination."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.15",
+          "title": "Access control",
+          "description": "Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements."
+        },
+        {
+          "control_no": "5.16",
+          "title": "Identity management",
+          "description": "The full life cycle of identities shall be managed."
+        },
+        {
+          "control_no": "5.18",
+          "title": "Access rights",
+          "description": "Access rights to information and other associated assets shall be provisioned, reviewed, modified and removed in accordance with the organization’s topic-specific policy on and rules for access control."
+        },
+        {
+          "control_no": "5.11",
+          "title": "Return of assets",
+          "description": "Personnel and other interested parties as appropriate shall return all the organization’s assets in their possession upon change or termination of their employment, contract or agreement."
+        },
+        {
+          "control_no": "6.1",
+          "title": "Privileged access rights",
+          "description": "The allocation and use of privileged access rights shall be restricted and managed."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Identity and Access Management Lifecycle",
+            "url": "https://identitymanagementinstitute.org/identity-and-access-management-lifecycle/"
+          },
+          {
+            "title": "The 5 Most Cringe-Worthy Privileged Data Breaches of 2018",
+            "url": "https://www.beyondtrust.com/blog/entry/the-5-most-cringe-worthy-privileged-data-breaches-of-2018"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "CISA Cybersecurity Advisory AA22-137A – Weak Security Controls and Practices Routinely Exploited for Initial Access",
+            "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-137a"
+          },
+          {
+            "title": "SP 800-53 Rev. 5, Security and Privacy Controls for Information Systems and Organizations",
+            "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How does your firm manage security risks associated with suppliers, subcontractors, and cloud service providers who may handle or have access to client data?",
+      "answer_set": [
+        "We do not perform security assessments of our suppliers or cloud providers.",
+        "Security is discussed informally with critical suppliers, but requirements are not included in contracts. Cloud services are used without a formal security review.",
+        "We perform due diligence and include baseline security requirements in agreements with key suppliers. We have a policy for the use of cloud services.",
+        "A comprehensive supplier risk management program is in place. It includes mandatory security assessments, contractual security clauses, ongoing monitoring, and specific processes for acquiring and managing cloud services securely."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.19",
+          "title": "Information security in supplier relationships",
+          "description": "Processes and procedures shall be defined and implemented to manage the information security risks associated with the use of supplier’s products or services."
+        },
+        {
+          "control_no": "5.2",
+          "title": "Addressing information security within supplier agreements",
+          "description": "Relevant information security requirements shall be established and agreed with each supplier based on the type of supplier relationship."
+        },
+        {
+          "control_no": "5.23",
+          "title": "Information security for use of cloud services",
+          "description": "Processes for acquisition, use, management and exit from cloud services shall be established in accordance with the organization’s information security requirements."
+        },
+        {
+          "control_no": "5.22",
+          "title": "Monitoring, review and change management of supplier services",
+          "description": "The organization shall regularly monitor, review, evaluate and manage change in supplier information security practices and service delivery."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "ISO 27001:2022 Annex A Control 5.23 Explained",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-23-information-security-use-of-cloud-services-2022/"
+          },
+          {
+            "title": "CISA's Supply Chain Risk Management Essentials",
+            "url": "https://www.cisa.gov/resources-tools/resources/cisa-scrm-essentials"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "Information and Communications Technology Supply Chain Risk Management - CISA",
+            "url": "https://www.cisa.gov/information-and-communications-technology-supply-chain-risk-management"
+          },
+          {
+            "title": "ICT Supply Chain Risk Management Task Force - CISA",
+            "url": "https://www.cisa.gov/resources-tools/groups/ict-supply-chain-risk-management-task-force"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your strategy for business continuity to ensure you can continue to serve clients and protect their data during a major disruption?",
+      "answer_set": [
+        "We have no business continuity plan or data backup strategy.",
+        "Backups are performed inconsistently and are not tested. A continuity plan may exist on paper but is not exercised.",
+        "A business continuity plan is documented, and ICT readiness is planned. Regular, automated backups are performed and stored securely.",
+        "A comprehensive, tested business continuity strategy is implemented. This includes redundant infrastructure, tested data backups with verified RTO/RPOs, and clear plans to maintain client service and security during any disruption."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.29",
+          "title": "Information security during disruption",
+          "description": "The organization shall plan how to maintain information security at an appropriate level during disruption."
+        },
+        {
+          "control_no": "5.3",
+          "title": "ICT readiness for business continuity",
+          "description": "ICT readiness shall be planned, implemented, maintained and tested based on business continuity objectives and ICT continuity requirements."
+        },
+        {
+          "control_no": "8.13",
+          "title": "Information backup",
+          "description": "Backup of data and systems shall be maintained and tested regularly."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "The role of ICT in ensuring business continuity",
+            "url": "https://www.thebci.org/news/the-role-of-ict-in-ensuring-business-continuity.html"
+          },
+          {
+            "title": "The Importance of Data Backup and Recovery",
+            "url": "https://www.sbtpartners.com/the-importance-of-data-backup-and-recovery/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "NIST SP 800-34 Rev. 1 Contingency Planning Guide for Federal Information Systems",
+            "url": "https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final"
+          },
+          {
+            "title": "World Backup Day 2025: All the news, updates and advice from our experts",
+            "url": "https://www.techradar.com/pro/live/world-backup-day-2025-all-the-news-updates-and-advice-from-our-experts"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you manage the human element of security, including background checks, confidentiality agreements, security training, and securing a remote/mobile workforce?",
+      "answer_set": [
+        "We do not perform screening, use NDAs, provide training, or have a remote work policy.",
+        "Screening is inconsistent. NDAs are used for some roles. Training is ad-hoc, and remote work security is left to the employee.",
+        "We conduct background screening for all new hires, use confidentiality agreements, and provide annual security awareness training. A formal remote work policy requires use of secure methods.",
+        "A robust HR security process is in place (screening, contracts, disciplinary process). We manage NDAs systematically, run a continuous security awareness program, and secure remote work through centrally managed technical controls (MDM, VPN, etc.)."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "6.1",
+          "title": "Screening",
+          "description": "Background verification checks on all candidates shall be carried out prior to joining the organization and on an ongoing basis, considering laws, regulations, business needs, and perceived risks."
+        },
+        {
+          "control_no": "6.3",
+          "title": "Information security awareness, education and training",
+          "description": "Personnel and relevant interested parties shall receive appropriate information security awareness, education, and training, including updates of the organization's policies and procedures relevant to their job function."
+        },
+        {
+          "control_no": "6.6",
+          "title": "Confidentiality or non-disclosure agreements",
+          "description": "Confidentiality or NDA agreements shall be identified, documented, regularly reviewed, and signed by personnel and other interested parties."
+        },
+        {
+          "control_no": "6.7",
+          "title": "Remote working",
+          "description": "Security measures shall be implemented when personnel are working remotely to protect information accessed, processed, or stored outside the organization’s premises."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Telework Guidance and Resources - CISA",
+            "url": "https://www.cisa.gov/topics/risk-management/coronavirus/telework-guidance-and-resources"
+          },
+          {
+            "title": "13 Security Tips For Working Remotely",
+            "url": "https://www.helixstorm.com/blog/security-tips-for-working-remotely/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "Cybersecurity Training & Exercises - CISA",
+            "url": "https://www.cisa.gov/cybersecurity-training-exercises"
+          },
+          {
+            "title": "Cybersecurity Best Practices - CISA",
+            "url": "https://www.cisa.gov/topics/cybersecurity-best-practices"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What technical controls do you use to protect client data, such as data masking, data leakage prevention (DLP), and secure configurations?",
+      "answer_set": [
+        "We do not use any of these technical controls.",
+        "We have some secure configuration standards, but do not use data masking or DLP. We may use live client data in test environments.",
+        "We have hardened configurations for servers and endpoints. Data masking is used for some test data, and basic DLP rules are in place.",
+        "We enforce secure configurations via automation. Comprehensive DLP solutions are used to prevent unauthorized exfiltration of client data. Data masking is required for all non-production environments, and data is deleted when no longer required."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.9",
+          "title": "Configuration management",
+          "description": "Configurations of hardware, software, and networks shall be securely defined, monitored and reviewed."
+        },
+        {
+          "control_no": "8.1",
+          "title": "Information deletion",
+          "description": "Information stored in systems or media shall be deleted when no longer needed."
+        },
+        {
+          "control_no": "8.11",
+          "title": "Data masking",
+          "description": "Data masking shall follow access control policies and business/legal requirements."
+        },
+        {
+          "control_no": "8.12",
+          "title": "Data leakage prevention",
+          "description": "Data leakage prevention measures shall protect systems and networks handling sensitive data."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Data Masking: 8 Techniques and How to Implement Them Successfully",
+            "url": "https://satoricyber.com/data-masking/data-masking-8-techniques-and-how-to-implement-them-successfully/"
+          },
+          {
+            "title": "Data Leakage Prevention: Why It Is Critical & 7 Tips for Success",
+            "url": "https://www.bluevoyant.com/knowledge-center/data-leakage-prevention-why-it-is-critical-7-tips-for-success"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "Getting to Know the CIS Benchmarks",
+            "url": "https://www.cisecurity.org/insights/blog/getting-to-know-the-cis-benchmarks"
+          },
+          {
+            "title": "What is Data Leak Prevention? - Mimecast",
+            "url": "https://www.mimecast.com/content/data-leakage-prevention/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you ensure any software your firm develops or customizes is secure, and that development and production environments are properly separated and managed?",
+      "answer_set": [
+        "We have no security process for development; environments are not separated.",
+        "We have informal coding practices but no security testing. Environments are logically separated but change management is informal.",
+        "We apply secure coding principles and separate dev/test/production environments. A change management process is in place for production systems.",
+        "A formal Secure Development Lifecycle (SDLC) is followed. It includes security requirements, secure coding, automated security testing, and strict separation and change control for all environments. Outsourced development is directed and monitored."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.25",
+          "title": "Secure development life cycle",
+          "description": "Secure development rules shall be established and applied for software and systems."
+        },
+        {
+          "control_no": "8.3",
+          "title": "Outsourced development",
+          "description": "Outsourced development must be directed, monitored, and reviewed by the organization."
+        },
+        {
+          "control_no": "8.31",
+          "title": "Separation of development, test and production environments",
+          "description": "Development, test, and production environments shall be separated and secured."
+        },
+        {
+          "control_no": "8.32",
+          "title": "Change management",
+          "description": "All changes to information systems shall follow a change management procedure."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "ISO 27002:2022 – Control 8.25 – Secure Development Life Cycle",
+            "url": "https://www.isms.online/iso-27002/control-8-25-secure-development-life-cycle/"
+          },
+          {
+            "title": "Secure Software Development Framework (SSDF)",
+            "url": "https://csrc.nist.gov/projects/ssdf"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "Secure Software Development Framework (SSDF) Version 1.1 (NIST SP 800-218)",
+            "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-218.pdf"
+          },
+          {
+            "title": "Major Incidents Resulting from Change: A Metric You Should Be Tracking",
+            "url": "https://www.thinkhdi.com/en/library/supportworld/2013/major-incidents.aspx"
+          }
+        ]
+      }
+    }
+  ]
+}

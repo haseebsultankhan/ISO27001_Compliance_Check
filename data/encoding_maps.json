@@ -1,0 +1,22 @@
+{
+    "size_map": {
+        "Micro": 1,
+        "Small": 2,
+        "Medium": 3
+    },
+    "team_map": {
+        "No-Team": 0,
+        "In-House": 1,
+        "Outsourced": 2
+    },
+    "industry_columns": [
+        "Construction",
+        "E-commerce",
+        "Education",
+        "Finance",
+        "Fitness",
+        "Healthcare",
+        "Manufacturing",
+        "Services"
+    ]
+}

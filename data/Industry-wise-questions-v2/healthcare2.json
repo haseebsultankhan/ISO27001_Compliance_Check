@@ -1,0 +1,500 @@
+{
+  "industry": "Healthcare",
+  "survey_questions": [
+    {
+      "question": "How does your healthcare organization manage its legal, regulatory, and contractual obligations, especially concerning the privacy and protection of Protected Health Information (PHI)?",
+      "answer_set": [
+        "We do not have a formal process for tracking healthcare-specific regulations like HIPAA.",
+        "We are aware of major privacy laws but lack documented procedures to ensure compliance across all departments.",
+        "A process is in place to identify and document all relevant legal and PII/PHI protection requirements. Compliance is reviewed annually.",
+        "We maintain a comprehensive and continuously updated register of all legal and regulatory requirements. We have a dedicated privacy officer, and compliance is integrated into our processes and verified through independent audits."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.31",
+          "title": "Legal, statutory, regulatory and contractual requirements",
+          "description": "Legal, statutory, regulatory and contractual requirements relevant to information security and the organization’s approach to meet these requirements shall be identified, documented and kept up to date."
+        },
+        {
+          "control_no": "5.34",
+          "title": "Privacy and protection of personally identifiable information (PII)",
+          "description": "The organization shall identify and meet the requirements regarding the preservation of privacy and protection of PII according to applicable laws and regulations and contractual requirements."
+        }
+      ],
+      "priority": "Medium",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Summary of the HIPAA Privacy Rule",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html"
+          },
+          {
+            "title": "Enforcement Highlights – HIPAA",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/data/enforcement-highlights/index.html"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A Control 5.31 – Legal Requirements",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-31-legal-statutory-regulatory-contractual-requirements-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.34 – Privacy and Protection of PII",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-34-privacy-and-protection-of-pii-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your approach to managing the full lifecycle of user access to clinical systems and patient data (e.g., EHR/EMR), from onboarding a new clinician to offboarding?",
+      "answer_set": [
+        "We use shared or generic accounts for accessing clinical systems; access is not role-based.",
+        "Unique user accounts are provided, but access rights are broad and not strictly based on job function. Access removal upon termination is a manual, often delayed, process.",
+        "Role-based access control (RBAC) is implemented for major clinical systems. Access rights are provisioned and removed based on formal HR processes, and privileged access is restricted.",
+        "A mature Identity and Access Management (IAM) system is in place, enforcing the principle of least privilege for all staff. Access is based on specific job roles (e.g., nurse, physician, billing), regularly reviewed, and automatically revoked upon employment change or termination."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.15",
+          "title": "Access control",
+          "description": "Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements."
+        },
+        {
+          "control_no": "5.16",
+          "title": "Identity management",
+          "description": "The full life cycle of identities shall be managed."
+        },
+        {
+          "control_no": "5.18",
+          "title": "Access rights",
+          "description": "Access rights to information and other associated assets shall be provisioned, reviewed, modified and removed in accordance with the organization’s topic-specific policy on and rules for access control."
+        },
+        {
+          "control_no": "6.1",
+          "title": "Privileged access rights",
+          "description": "The allocation and use of privileged access rights shall be restricted and managed."
+        },
+        {
+          "control_no": "6.2",
+          "title": "Information access restriction",
+          "description": "Access to information and other associated assets shall be restricted in accordance with the established topic-specific policy on access control."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Health Information System Role-Based Access Control",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5836325/"
+          },
+          {
+            "title": "Healthcare Identity and Access Management Best Practices",
+            "url": "https://www.descope.com/blog/post/healthcare-iam"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.15 – Access Control",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-15-access-control-2022/"
+          },
+          {
+            "title": "Summary of the HIPAA Security Rule",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/security/laws-regulations/index.html"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you identify, classify, and protect patient records and other sensitive information assets throughout your organization?",
+      "answer_set": [
+        "We do not maintain a formal inventory of information assets or have a data classification scheme.",
+        "An informal inventory exists for key systems like the EHR, but there are no formal rules for data handling, classification, or labelling.",
+        "We maintain an inventory of information assets with assigned owners. A data classification policy (e.g., Public, Internal, PHI/Confidential) is defined and applied to key data.",
+        "A complete, centrally managed inventory of all information assets exists. All data is classified, labelled (digitally and/or physically), and protected according to comprehensive acceptable use and information transfer policies based on its classification."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.9",
+          "title": "Inventory of information and other associated assets",
+          "description": "An inventory of information and other associated assets, including owners, shall be developed and maintained."
+        },
+        {
+          "control_no": "5.1",
+          "title": "Acceptable use of information and other associated assets",
+          "description": "Rules for the acceptable use and procedures for handling information and other associated assets shall be identified, documented and implemented."
+        },
+        {
+          "control_no": "5.12",
+          "title": "Classification of information",
+          "description": "Information shall be classified according to the information security needs of the organization based on confidentiality, integrity, availability and relevant interested party requirements."
+        },
+        {
+          "control_no": "5.13",
+          "title": "Labelling of information",
+          "description": "An appropriate set of procedures for information labelling shall be developed and implemented in accordance with the information classification scheme adopted by the organization."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Asset inventory is foundational to security programs",
+            "url": "https://www.runzero.com/blog/asset-inventory-is-foundational/"
+          },
+          {
+            "title": "2025 Data Classification Overview: Labels & Levels Explained",
+            "url": "https://concentric.ai/the-importance-of-data-classification-levels-and-labels/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.12 – Classification of Information",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-12-classification-of-information-2022/"
+          },
+          {
+            "title": "Data Classification Practices – NIST NCCoE",
+            "url": "https://www.nccoe.nist.gov/data-classification"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How does your organization plan for and respond to information security incidents, particularly those involving a potential breach of patient data?",
+      "answer_set": [
+        "We do not have a documented incident response plan.",
+        "We respond to incidents on an ad-hoc basis with no defined roles or procedures for evidence collection.",
+        "A formal incident response plan exists with defined roles and responsibilities. We assess events to classify them as incidents and follow a documented response process.",
+        "We have a comprehensive, well-tested incident response plan. This includes 24/7 detection, a dedicated response team, playbooks for PHI breaches, and forensically sound evidence collection procedures to meet legal and regulatory requirements."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.24",
+          "title": "Information security incident management planning and preparation",
+          "description": "The organization shall plan and prepare for managing information security incidents by defining, establishing and communicating information security incident management processes, roles and responsibilities."
+        },
+        {
+          "control_no": "5.25",
+          "title": "Assessment and decision on information security events",
+          "description": "The organization shall assess information security events and decide if they are to be categorized as information security incidents."
+        },
+        {
+          "control_no": "5.26",
+          "title": "Response to information security incidents",
+          "description": "Information security incidents shall be responded to in accordance with the documented procedures."
+        },
+        {
+          "control_no": "5.28",
+          "title": "Collection of evidence",
+          "description": "The organization shall establish and implement procedures for the identification, collection, acquisition and preservation of evidence related to information security events."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Incident Response for Small Healthcare Organizations",
+            "url": "https://405d.hhs.gov/post/detail/38f0e88f-0fd6-4c9d-b63a-0fe9eebcb4a7"
+          },
+          {
+            "title": "HIPAA Breach Notification Rule",
+            "url": "https://www.ama-assn.org/practice-management/hipaa/hipaa-breach-notification-rule"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A Control 5.24 – Incident Management Planning",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-24-incident-management-planning-and-preparation-2022/"
+          },
+          {
+            "title": "NIST SP 800-61 – Computer Security Incident Handling Guide",
+            "url": "https://www.nist.gov/privacy-framework/nist-sp-800-61"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your strategy for business continuity and disaster recovery to ensure critical clinical systems remain available and patient care is not disrupted?",
+      "answer_set": [
+        "No formal business continuity or data backup plans exist.",
+        "Backups are performed inconsistently and are not tested for restorability. A continuity plan may exist but is outdated.",
+        "Regular, automated backups of critical systems (EHR, etc.) are performed. A business continuity plan with defined RTO/RPOs is in place and is tested periodically.",
+        "A comprehensive and regularly tested business continuity and disaster recovery strategy is implemented. This includes redundant infrastructure, tested data backups with verified RTO/RPOs, and clear plans to maintain patient care during any disruption."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.29",
+          "title": "Information security during disruption",
+          "description": "The organization shall plan how to maintain information security at an appropriate level during disruption."
+        },
+        {
+          "control_no": "5.3",
+          "title": "ICT readiness for business continuity",
+          "description": "ICT readiness shall be planned, implemented, maintained and tested based on business continuity objectives and ICT continuity requirements."
+        },
+        {
+          "control_no": "8.13",
+          "title": "Information backup",
+          "description": "Backup of data and systems shall be maintained and tested regularly."
+        },
+        {
+          "control_no": "8.14",
+          "title": "Redundancy of information processing facilities",
+          "description": "Redundancy shall be implemented to ensure system availability."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Business Continuity for Clinical Practices",
+            "url": "https://emergency.yale.edu/planning/business-continuity-planning/clinical-practices"
+          },
+          {
+            "title": "HIPAA Rules on Contingency Planning",
+            "url": "https://www.hipaajournal.com/hipaa-rules-on-contingency-planning/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.29 – Information Security During Disruption",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-29-information-security-during-disruption-2022/"
+          },
+          {
+            "title": "NIST SP 800-34 – Contingency Planning Guide for Federal Information Systems",
+            "url": "https://csrc.nist.gov/publications/detail/sp/800-34/rev-1/final"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you protect patient data when accessed by staff working remotely or on mobile/endpoint devices?",
+      "answer_set": [
+        "There are no security measures for remote work; staff use personal devices without any controls.",
+        "We provide VPN access but have no policies or security controls for the devices being used to connect.",
+        "A formal remote work policy exists. All remote access is via a secure VPN, and company-provided devices are equipped with antivirus and are encrypted.",
+        "Secure remote access is managed through a Zero Trust architecture. All endpoint devices (company or BYOD) must meet strict security compliance checks (encryption, patching, anti-malware) before being granted access to any clinical information."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "6.7",
+          "title": "Remote working",
+          "description": "Security measures shall be implemented when personnel are working remotely to protect information accessed, processed, or stored outside the organization’s premises."
+        },
+        {
+          "control_no": "8.1",
+          "title": "User end point devices",
+          "description": "Information stored on, processed by or accessible via user endpoint devices shall be protected."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Working Remotely: How to Stay HIPAA Compliant From Home",
+            "url": "https://www.totalhipaa.com/hipaa-compliance-working-remotely/"
+          },
+          {
+            "title": "HIPAA Compliance & Work From Home Guidelines",
+            "url": "https://compliancy-group.com/hipaa-compliance-working-from-home/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27002:2022 Control 6.7 – Remote Working",
+            "url": "https://www.isms.online/iso-27002/control-6-7-remote-working/"
+          },
+          {
+            "title": "ISO 27001 Annex A 6.7 – Remote Working",
+            "url": "https://hightable.io/iso-27001-annex-a-6-7-remote-working/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What technical measures are in place to protect against data leakage and ensure PHI is appropriately masked or de-identified for testing or research?",
+      "answer_set": [
+        "We do not use any data masking or data loss prevention technologies.",
+        "We use production PHI in our development and test environments.",
+        "We have basic data loss prevention (DLP) rules in place (e.g., blocking emails with health record numbers). We have a process to manually de-identify data for research.",
+        "Comprehensive DLP solutions are deployed to monitor and block unauthorized exfiltration of PHI. Automated data masking and tokenization techniques are used to supply non-production environments with realistic but anonymized data."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.11",
+          "title": "Data masking",
+          "description": "Data masking shall follow access control policies and business/legal requirements."
+        },
+        {
+          "control_no": "8.12",
+          "title": "Data leakage prevention",
+          "description": "Data leakage prevention measures shall protect systems and networks handling sensitive data."
+        },
+        {
+          "control_no": "8.33",
+          "title": "Test information",
+          "description": "Test data shall be securely managed and protected."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "HIPAA Data Loss Prevention",
+            "url": "https://compliancy-group.com/hipaa-data-loss-prevention/"
+          },
+          {
+            "title": "Data Masking in Healthcare",
+            "url": "https://www.iri.com/blog/data-protection/data-masking-in-healthcare/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27002:2022 Control 8.11 – Data Masking",
+            "url": "https://www.isms.online/iso-27002/control-8-11-data-masking/"
+          },
+          {
+            "title": "ISO 27002:2022 Control 8.12 – Data Leakage Prevention",
+            "url": "https://www.isms.online/iso-27002/control-8-12-data-leakage-prevention/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you ensure the secure disposal of physical and digital assets (e.g., old hard drives, servers, paper records) that contain patient information?",
+      "answer_set": [
+        "Assets are disposed of through standard waste channels with no data removal.",
+        "We perform a basic ‘delete’ or ‘format’ on electronic media before disposal.",
+        "A formal policy requires secure wiping of all electronic media. Paper records are shredded.",
+        "We use a certified third-party service for the physical destruction (e.g., shredding, degaussing) of all media containing PHI, in line with standards like NIST 800-88. A certificate of destruction is retained for audit purposes."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "7.1",
+          "title": "Storage media",
+          "description": "Managed through their life cycle: acquisition, use, transport, disposal based on classification and handling needs."
+        },
+        {
+          "control_no": "7.14",
+          "title": "Secure disposal or re-use of equipment",
+          "description": "Sensitive data and licensed software must be verified as removed before disposal or reuse."
+        },
+        {
+          "control_no": "8.1",
+          "title": "Information deletion",
+          "description": "Information stored in systems or media shall be deleted when no longer needed."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Guidelines for Media Sanitization – NIST SP 800-88 Rev.1",
+            "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-88r1.pdf"
+          },
+          {
+            "title": "Disposal of Protected Health Information – HHS FAQ",
+            "url": "https://www.hhs.gov/hipaa/for-professionals/faq/disposal-of-protected-health-information/index.html"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27002:2022 Control 7.14 – Secure Disposal or Re-Use of Equipment",
+            "url": "https://www.isms.online/iso-27002/control-7-14-secure-disposal-or-re-use-of-equipment/"
+          },
+          {
+            "title": "ISO 27001 Annex A 7.14 – Secure Disposal or Re-Use of Equipment",
+            "url": "https://hightable.io/iso-27001-annex-a-7-14-secure-disposal-or-re-use-of-equipment/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you monitor and audit activities within your networks and systems, particularly to detect unauthorized access to patient records?",
+      "answer_set": [
+        "We do not collect or review system logs.",
+        "Logs are generated by systems but are not centralized, protected, or regularly reviewed.",
+        "We centralize logs from critical clinical systems and network devices. We perform periodic, manual reviews for anomalous activity.",
+        "We use a Security Information and Event Management (SIEM) system to aggregate, protect, and analyze logs in near real-time. Automated alerts are configured to detect and flag suspicious activities, such as inappropriate access to patient data, for immediate investigation."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.15",
+          "title": "Logging",
+          "description": "Logs that record activities, exceptions, and events shall be produced, stored, protected, and analyzed."
+        },
+        {
+          "control_no": "8.16",
+          "title": "Monitoring activities",
+          "description": "Networks, systems, and applications shall be monitored for anomalous behavior; actions must be taken to evaluate incidents."
+        },
+        {
+          "control_no": "8.17",
+          "title": "Clock synchronization",
+          "description": "Clocks of systems must be synchronized to approved time sources."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "5 Reasons Why Healthcare Organizations Need a SIEM Tool",
+            "url": "https://www.securitymagazine.com/blogs/14-security-blog/post/101137-5-reasons-why-healthcare-organizations-need-a-siem-tool"
+          },
+          {
+            "title": "HIPAA Audit Log Requirements",
+            "url": "https://compliancy-group.com/hipaa-audit-log-requirements/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27002:2022 Control 8.15 – Logging",
+            "url": "https://www.isms.online/iso-27002/control-8-15-logging/"
+          },
+          {
+            "title": "ISO 27002:2022 Control 8.16 – Monitoring Activities",
+            "url": "https://www.isms.online/iso-27002/control-8-16-monitoring-activities/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How are cryptographic controls, like encryption, applied to protect patient data both when it is stored (at rest) and when it is being transmitted (in transit)?",
+      "answer_set": [
+        "We do not use encryption for patient data.",
+        "Encryption is used for some external communications (e.g., website) but not for data stored in our databases or on servers.",
+        "A policy for cryptography is defined. All laptops are encrypted, and data is encrypted in transit over public networks. Some databases containing PHI are encrypted.",
+        "A comprehensive encryption policy is enforced. All PHI is encrypted at rest (on servers, databases, backups) and in transit (both internally and externally) using strong, industry-standard algorithms. Key management processes are formally documented and secured."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.24",
+          "title": "Use of cryptography",
+          "description": "Rules for cryptographic controls (e.g., key management) shall be defined and implemented."
+        }
+      ],
+      "priority": "Medium",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "HIPAA Encryption Requirements – 2025 Update",
+            "url": "https://www.hipaajournal.com/hipaa-encryption-requirements/"
+          },
+          {
+            "title": "HIPAA Encryption Requirements: The Key to Protecting Patient Privacy",
+            "url": "https://sprinto.com/blog/hipaa-encryption-requirements/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27002:2022 Control 8.24 – Use of Cryptography",
+            "url": "https://www.isms.online/iso-27002/control-8-24-use-of-cryptography/"
+          },
+          {
+            "title": "NIST SP 800-175B – Guideline for Using Cryptographic Standards",
+            "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-175b.pdf"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "industry": "Manufacturing",
+  "survey_questions": [
+    {
+      "question": "How does your organization govern information security, with policies and roles covering both corporate IT environments and the plant floor (Operational Technology)?",
+      "answer_set": [
+        "We have no formal security policies; security is not a defined responsibility.",
+        "Policies exist for corporate IT, but they do not extend to the plant floor or OT systems.",
+        "We have separate or integrated policies for IT and OT. Roles are defined, and management requires personnel to follow them, with periodic compliance reviews.",
+        "A unified security governance framework covers the entire organization (IT and OT). Policies are approved, communicated, and regularly reviewed by management. Compliance is verified through independent audits."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.1",
+          "title": "Policies for information security",
+          "description": "Information security policy and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel and relevant interested parties, and reviewed at planned intervals and if significant changes occur."
+        },
+        {
+          "control_no": "5.2",
+          "title": "Information security roles and responsibilities",
+          "description": "Information security roles and responsibilities shall be defined and allocated according to the organization needs."
+        },
+        {
+          "control_no": "5.4",
+          "title": "Management responsibilities",
+          "description": "Management shall require all personnel to apply information security in accordance with the established information security policy, topic-specific policies and procedures of the organization."
+        },
+        {
+          "control_no": "5.36",
+          "title": "Compliance with policies, rules and standards for information security",
+          "description": "Compliance with the organization’s information security policy, topic-specific policies, rules and standards shall be regularly reviewed."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "5 Principles for Effective OT Security Governance",
+            "url": "https://verveindustrial.com/resources/blog/5-principles-for-guiding-cyber-security-governance/"
+          },
+          {
+            "title": "NIST Publishes Guide to Operational Technology (OT) Security",
+            "url": "https://www.nist.gov/news-events/news/2023/09/nist-publishes-guide-operational-technology-ot-security"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.4 – Management Responsibilities",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-4-management-responsibilities-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.1 – Policies for Information Security",
+            "url": "https://www.isms.online/iso-27001/annex-a/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your approach to managing intellectual property (e.g., designs, formulas, patents) and maintaining an inventory of critical assets, including production machinery and control systems?",
+      "answer_set": [
+        "We do not maintain a formal inventory of assets and have no specific procedures to protect intellectual property.",
+        "We have an inventory of IT assets, but OT assets are not included. IP protection is reactive.",
+        "We maintain inventories for both IT and OT assets with assigned owners. We have defined procedures to protect key intellectual property and classify critical data.",
+        "A comprehensive inventory of all information and OT assets is maintained. All data is classified, labelled, and handled according to its sensitivity. Proactive legal and technical controls are in place to protect all intellectual property."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.9",
+          "title": "Inventory of information and other associated assets",
+          "description": "An inventory of information and other associated assets, including owners, shall be developed and maintained."
+        },
+        {
+          "control_no": "5.12",
+          "title": "Classification of information",
+          "description": "Information shall be classified according to the information security needs of the organization based on confidentiality, integrity, availability and relevant interested party requirements."
+        },
+        {
+          "control_no": "5.32",
+          "title": "Intellectual property rights",
+          "description": "The organization shall implement appropriate procedures to protect intellectual property rights."
+        },
+        {
+          "control_no": "5.33",
+          "title": "Protection of records",
+          "description": "Records shall be protected from loss, destruction, falsification, unauthorized access and unauthorized release."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Top Tips for IP Protection for Manufacturing Firms",
+            "url": "https://www.digitalguardian.com/blog/top-tips-ip-protection-manufacturing-firms"
+          },
+          {
+            "title": "Industry 4.0 and Cybersecurity – How to Protect Your Investment",
+            "url": "https://www.nist.gov/blogs/manufacturing-innovation-blog/industry-40-and-cybersecurity-how-protect-your-investment"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.9 – Inventory of Information and Other Associated Assets",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-9-inventory-of-information-other-associated-assets-2022/"
+          },
+          {
+            "title": "An In-Depth Look into Intellectual Property: Part One",
+            "url": "https://www.nist.gov/news-events/news/2020/01/depth-look-intellectual-property-part-one"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you manage the security risks associated with your supply chain, including both ICT suppliers (software, cloud) and suppliers of physical components for your products?",
+      "answer_set": [
+        "We do not conduct security assessments of any of our suppliers.",
+        "We assess some IT suppliers, but do not consider the security risks from the physical component supply chain.",
+        "We have a process to assess and include security requirements in contracts with critical ICT suppliers. Risks in the physical supply chain are considered informally.",
+        "A holistic supply chain risk management program is in place. It includes security vetting for all critical suppliers (ICT and physical), mandatory security clauses in agreements, and ongoing monitoring of their security performance."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.19",
+          "title": "Information security in supplier relationships",
+          "description": "Processes and procedures shall be defined and implemented to manage the information security risks associated with the use of supplier’s products or services."
+        },
+        {
+          "control_no": "5.2",
+          "title": "Addressing information security within supplier agreements",
+          "description": "Relevant information security requirements shall be established and agreed with each supplier based on the type of supplier relationship."
+        },
+        {
+          "control_no": "5.21",
+          "title": "Managing information security in the ICT supply chain",
+          "description": "Processes and procedures shall be defined and implemented to manage the information security risks associated with the ICT products and services supply chain."
+        },
+        {
+          "control_no": "5.22",
+          "title": "Monitoring, review and change management of supplier services",
+          "description": "The organization shall regularly monitor, review, evaluate and manage change in supplier information security practices and service delivery."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Information and Communications Technology Supply Chain Risk Management",
+            "url": "https://www.cisa.gov/information-and-communications-technology-supply-chain-risk-management"
+          },
+          {
+            "title": "NIST Updates Cybersecurity Guidance for Supply Chain Risk Management",
+            "url": "https://www.nist.gov/news-events/news/2022/05/nist-updates-cybersecurity-guidance-supply-chain-risk-management"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.21 – Managing Information Security in the ICT Supply Chain",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-21-managing-information-security-ict-supply-chain-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.23 – Information Security for Use of Cloud Services",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-23-information-security-use-of-cloud-services-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your strategy for business continuity and operational resilience, specifically to ensure production can withstand or recover from a significant disruption?",
+      "answer_set": [
+        "We have no business continuity plan or data backups for production systems.",
+        "Backups are performed for IT systems, but not for OT systems. A continuity plan may exist but is not tested.",
+        "We have a business continuity plan that covers critical production processes. Backups for key IT and OT systems are performed and tested. We have some redundancy for critical utilities.",
+        "A comprehensive and tested operational resilience strategy is in place. This includes redundant production capabilities, fully tested recovery plans for IT/OT systems, and proactive capacity management to ensure sustained production levels."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.29",
+          "title": "Information security during disruption",
+          "description": "The organization shall plan how to maintain information security at an appropriate level during disruption."
+        },
+        {
+          "control_no": "5.3",
+          "title": "ICT readiness for business continuity",
+          "description": "ICT readiness shall be planned, implemented, maintained and tested based on business continuity objectives and ICT continuity requirements."
+        },
+        {
+          "control_no": "8.13",
+          "title": "Information backup",
+          "description": "Backup of data and systems shall be maintained and tested regularly."
+        },
+        {
+          "control_no": "8.14",
+          "title": "Redundancy of information processing facilities",
+          "description": "Redundancy shall be implemented to ensure system availability."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "The Critical Role of BCP and DR Planning in OT Cybersecurity",
+            "url": "https://gca.isa.org/blog/the-critical-role-of-bcp-and-dr-planning-in-ot-cybersecurity-lessons-from-the-crowdstrike-incident"
+          },
+          {
+            "title": "Business Continuity for the Manufacturing Industry",
+            "url": "https://www.agilityrecovery.com/article/manufacturing-business-continuity"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "NIST SP 800-34 Rev. 1 – Contingency Planning Guide for Federal Information Systems",
+            "url": "https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.29 – Information Security During Disruption",
+            "url": "https://hightable.io/iso-27001-annex-a-5-29-information-security-during-disruption/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you secure your physical manufacturing facilities, including defining security perimeters, controlling access to the plant floor, and protecting equipment from environmental threats?",
+      "answer_set": [
+        "There are no defined security perimeters or formal access controls to the plant floor.",
+        "Access to the building is controlled, but there are no specific security measures for the production areas, equipment, or cabling.",
+        "The plant has defined physical security perimeters with access controls. Equipment is protected from common environmental threats and maintenance is scheduled.",
+        "A multi-layered physical security strategy is implemented, including monitored perimeters, strict access control to secure areas (plant floor, data centers), protection against environmental threats, and secure equipment siting and maintenance schedules."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "7.1",
+          "title": "Physical security perimeters",
+          "description": "Security perimeters shall be defined and used to protect areas that contain information and other associated assets."
+        },
+        {
+          "control_no": "7.3",
+          "title": "Securing offices, rooms and facilities",
+          "description": "Physical security for offices, rooms and facilities shall be designed and implemented."
+        },
+        {
+          "control_no": "7.5",
+          "title": "Protecting against physical and environmental threats",
+          "description": "Protection against threats such as natural disasters, intentional/unintentional damage shall be designed and implemented."
+        },
+        {
+          "control_no": "7.6",
+          "title": "Working in secure areas",
+          "description": "Security measures for working in secure areas shall be designed and implemented."
+        },
+        {
+          "control_no": "7.8",
+          "title": "Equipment siting and protection",
+          "description": "Equipment shall be sited securely and protected."
+        },
+        {
+          "control_no": "7.12",
+          "title": "Cabling security",
+          "description": "Cables protected from interception, interference or damage."
+        },
+        {
+          "control_no": "7.13",
+          "title": "Equipment maintenance",
+          "description": "Equipment maintained to ensure availability, integrity, confidentiality."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "ChemLock Delay Security Goal – Perimeter and Access Controls",
+            "url": "https://www.cisa.gov/resources-tools/programs/chemlock/delay"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 7.1 – Physical Security Perimeters",
+            "url": "https://www.isms.online/iso-27001/annex-a/7-1-physical-security-perimeters-2022/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 7.4 – Physical Security Monitoring",
+            "url": "https://www.isms.online/iso-27001/annex-a/7-4-physical-security-monitoring-2022/"
+          },
+          {
+            "title": "CISA Recommended Practice: Defense in Depth for ICS",
+            "url": "https://www.cisa.gov/sites/default/files/recommended_practices/NCCIC_ICS-CERT_Defense_in_Depth_2016_S508C.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What measures are in place to secure your networks, especially to segregate the corporate (IT) network from the industrial/plant floor (OT) network?",
+      "answer_set": [
+        "Our IT and OT systems are on the same, flat network with no segmentation.",
+        "We have a firewall at the internet edge, but no internal segmentation between IT and OT.",
+        "We use firewalls and VLANs to create a basic level of segregation between our corporate and industrial networks.",
+        "We follow a defense-in-depth model (e.g., Purdue Model) with strict network segmentation. A demilitarized zone (DMZ) is used to control all traffic between IT and OT networks, and security levels for network services are enforced and monitored."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.2",
+          "title": "Networks security",
+          "description": "Network devices and infrastructure must be secured, managed, and controlled to protect system information."
+        },
+        {
+          "control_no": "8.21",
+          "title": "Security of network services",
+          "description": "Security mechanisms and levels for network services must be identified, implemented, and monitored."
+        },
+        {
+          "control_no": "8.22",
+          "title": "Segregation of networks",
+          "description": "Groups of services, users, and systems shall be segregated in the network."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "What Is the Purdue Model for ICS Security?",
+            "url": "https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security"
+          },
+          {
+            "title": "Network Security Architecture and Segmentation for OT",
+            "url": "https://gca.isa.org/blog/ot-security-dozen-part-3-network-security-architecture-segmentation"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "NIST SP 800-82 Rev. 3 – Guide to OT Security (Segmentation)",
+            "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf"
+          },
+          {
+            "title": "CISA Recommended Practice: Defense in Depth",
+            "url": "https://www.cisa.gov/sites/default/files/recommended_practices/NCCIC_ICS-CERT_Defense_in_Depth_2016_S508C.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you manage system security, including malware protection and vulnerability patching, for both office workstations and industrial control systems (e.g., HMIs, SCADA servers)?",
+      "answer_set": [
+        "We do not have anti-malware solutions or a patching process for our systems.",
+        "Anti-malware and patching are managed for IT systems, but OT systems are not touched due to uptime concerns.",
+        "We have managed anti-malware and patching for IT. For OT, we use compensating controls (e.g., network isolation) where patching is not feasible.",
+        "A comprehensive vulnerability management program covers both IT and OT. Systems are securely configured, protected with appropriate anti-malware (e.g., application whitelisting for OT), and patched according to a risk-based schedule approved by operations."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.7",
+          "title": "Protection against malware",
+          "description": "Protection against malware shall be implemented and supported by appropriate user awareness."
+        },
+        {
+          "control_no": "8.8",
+          "title": "Management of technical vulnerabilities",
+          "description": "Organizations shall assess and address technical vulnerabilities of systems in use."
+        },
+        {
+          "control_no": "8.9",
+          "title": "Configuration management",
+          "description": "Configurations of hardware, software, and networks shall be securely defined, monitored and reviewed."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Updating Antivirus in an Industrial Control System",
+            "url": "https://www.cisa.gov/sites/default/files/2023-01/Recommended%20Practice%20Updating%20Antivirus%20in%20an%20Industrial%20Control%20System_S508C.pdf"
+          },
+          {
+            "title": "Guide to Industrial Control Systems (ICS) Security – NIST SP 800-82",
+            "url": "https://csrc.nist.gov/pubs/sp/800/82/r2/final"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 8.7 – Protection Against Malware",
+            "url": "https://www.isms.online/iso-27001/annex-a/8-7-protection-against-malware-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 8.8 – Management of Technical Vulnerabilities",
+            "url": "https://www.isms.online/iso-27001/annex-a/8-8-management-of-technical-vulnerabilities-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you manage employee and contractor security, from background screening and contractual agreements to securing remote access, especially to sensitive OT systems?",
+      "answer_set": [
+        "We do not perform background checks or have security clauses in employment contracts. Remote access is not secured.",
+        "Background checks are performed for office staff only. Security responsibilities are not formally defined in contracts.",
+        "Background checks are standard for all employees. Employment agreements contain security clauses. Remote access to the IT network is secured via VPN.",
+        "A robust HR security process is in place, including ongoing screening for sensitive roles. Secure remote access to OT systems is strictly forbidden or heavily controlled and monitored (e.g., via a jump host in a DMZ)."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "6.1",
+          "title": "Screening",
+          "description": "Background verification checks on all candidates shall be carried out prior to joining the organization and on an ongoing basis, considering laws, regulations, business needs, and perceived risks."
+        },
+        {
+          "control_no": "6.2",
+          "title": "Terms and conditions of employment",
+          "description": "The employment contractual agreements shall state the personnel’s and the organization’s responsibilities for information security."
+        },
+        {
+          "control_no": "6.7",
+          "title": "Remote working",
+          "description": "Security measures shall be implemented when personnel are working remotely to protect information accessed, processed, or stored outside the organization’s premises."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Configuring and Managing Remote Access for Industrial Control Systems",
+            "url": "https://www.cisa.gov/sites/default/files/2023-01/RP_Managing_Remote_Access_S508NC.pdf"
+          },
+          {
+            "title": "Employers' Guide to Cybersecurity Background Checks",
+            "url": "https://www.securecheck360.com/guide-to-cybersecurity-background-checks/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 6.1 – Screening",
+            "url": "https://www.isms.online/iso-27001/annex-a/6-1-screening-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 6.7 – Remote Working",
+            "url": "https://www.isms.online/iso-27001/annex-a/6-7-remote-working-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you ensure that any software or firmware you develop, either for your products or for internal use, is created using secure development practices?",
+      "answer_set": [
+        "We have no security requirements for software development.",
+        "Developers follow informal best practices, but there is no security testing. Development and production environments are not separated.",
+        "We have defined secure coding principles and separate development, test, and production environments. Some security testing is performed pre-release.",
+        "A formal Secure Development Lifecycle (SDLC) is applied to all development. This includes defining security requirements, secure coding, security testing, and secure change management for all environments. Access to source code is strictly managed."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "6.3",
+          "title": "Access to source code",
+          "description": "Read and write access to source code, development tools and software libraries shall be appropriately managed."
+        },
+        {
+          "control_no": "8.25",
+          "title": "Secure development life cycle",
+          "description": "Secure development rules shall be established and applied for software and systems."
+        },
+        {
+          "control_no": "8.26",
+          "title": "Application security requirements",
+          "description": "Information security requirements must be defined and approved for application development/acquisition."
+        },
+        {
+          "control_no": "8.28",
+          "title": "Secure coding",
+          "description": "Secure coding principles shall be enforced."
+        },
+        {
+          "control_no": "8.31",
+          "title": "Separation of development, test and production environments",
+          "description": "Development, test, and production environments shall be separated and secured."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "ISA/IEC 62443-4-1 Defines a Secure Development Lifecycle",
+            "url": "https://gca.isa.org/blog/manage-vulnerabilities-in-ics-open-source-software"
+          },
+          {
+            "title": "Secure Software Development Framework (SSDF) – NIST",
+            "url": "https://csrc.nist.gov/projects/ssdf"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISA/IEC 62443-4-1 Product Security Development Life-Cycle Requirements",
+            "url": "https://www.isa.org/intech-home/2018/september-october/departments/new-standard-specifies-security-capabilities-for-c"
+          },
+          {
+            "title": "Secure Software Development Framework (SSDF) Version 1.1 (NIST SP 800-218)",
+            "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-218.pdf"
+          }
+        ]
+      }
+    }
+  ]
+}

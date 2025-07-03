@@ -1,0 +1,406 @@
+{
+  "industry": "Construction",
+  "survey_questions": [
+    {
+      "question": "How does your company establish and enforce information security policies, and ensure management and all personnel, including on-site subcontractors, understand their responsibilities?",
+      "answer_set": [
+        "We have no formal, written information security policies.",
+        "Policies exist for head office staff, but they are not communicated to or enforced for on-site personnel or subcontractors.",
+        "Information security policies are defined and approved by management. All personnel, including site supervisors, are required to apply them.",
+        "A comprehensive set of security policies is defined, approved, and communicated to all personnel and relevant interested parties (including subcontractors). Management actively enforces these policies at all locations, both office and on-site."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.1",
+          "title": "Policies for information security",
+          "description": "Information security policy and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel and relevant interested parties, and reviewed at planned intervals and if significant changes occur."
+        },
+        {
+          "control_no": "5.4",
+          "title": "Management responsibilities",
+          "description": "Management shall require all personnel to apply information security in accordance with the established information security policy, topic-specific policies and procedures of the organization."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "ISO 27001 for the Construction Industry",
+            "url": "https://www.isms.online/sectors/iso-27001-for-the-construction-industry/"
+          },
+          {
+            "title": "Building cybersecurity in the construction industry",
+            "url": "https://www.deloitte.com/ce/en/industries/industrial-construction/perspectives/ce-building-cybersecurity-in-the-construction-industry.html"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.4 – Management Responsibilities",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-4-management-responsibilities-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 A 5.1 Policies for Information Security",
+            "url": "https://hightable.io/iso-27001-annex-a-5-1-policies/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What measures are in place to secure your physical construction sites, including controlling entry, monitoring the premises, and protecting against theft or environmental damage?",
+      "answer_set": [
+        "Job sites are open with no specific security measures in place.",
+        "Sites are fenced, but there is no formal entry control or monitoring.",
+        "We define and enforce physical security perimeters (e.g., fencing), control entry points for workers and vehicles, and have basic monitoring (e.g., security patrols).",
+        "A multi-layered physical security plan is implemented for each site. This includes defined and monitored perimeters, strict entry controls, continuous surveillance (e.g., CCTV), and measures to protect assets from both theft and environmental threats."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "7.1",
+          "title": "Physical security perimeters",
+          "description": "Security perimeters shall be defined and used to protect areas that contain information and other associated assets."
+        },
+        {
+          "control_no": "7.2",
+          "title": "Physical entry",
+          "description": "Secure areas shall be protected by appropriate entry controls and access points."
+        },
+        {
+          "control_no": "7.4",
+          "title": "Physical security monitoring",
+          "description": "Premises shall be continuously monitored for unauthorized physical access."
+        },
+        {
+          "control_no": "7.5",
+          "title": "Protecting against physical and environmental threats",
+          "description": "Protection against threats such as natural disasters, intentional/unintentional damage shall be designed and implemented."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Effective Construction Site Security Solutions",
+            "url": "https://www.criticalts.com/articles/best-practices-for-protecting-equipment-and-workers-on-a-construction-site/"
+          },
+          {
+            "title": "Top Strategies for Construction Site Security to Prevent Theft",
+            "url": "https://www.lvt.com/blog/top-strategies-for-construction-site-security-to-prevent-theft"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Control 7.1 Physical Security Perimeters",
+            "url": "https://iso-docs.com/blogs/iso-27001-2022-standard/iso-27001-2022-control-7-1-physical-security-perimeters-template"
+          },
+          {
+            "title": "ISO 27001:2022 A 7.4 Physical security monitoring",
+            "url": "https://preteshbiswas.com/2023/01/16/iso-27001-a-7-4-physical-security-monitoring/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you protect valuable equipment, materials, and temporary site offices from unauthorized access, damage, or disruption to supporting utilities like power?",
+      "answer_set": [
+        "Equipment and site offices are left unsecured without specific protections.",
+        "High-value equipment is locked when not in use, but there are no formal procedures for its protection or for securing temporary facilities.",
+        "We have procedures for securing site offices and facilities. Equipment is sited to minimize risk, and we have plans for temporary power if utilities are disrupted.",
+        "A formal security plan covers all on-site assets. This includes secure siting and protection of equipment and trailers, security for cabling and supporting utilities, and measures for working securely within designated areas."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "7.3",
+          "title": "Securing offices, rooms and facilities",
+          "description": "Physical security for offices, rooms and facilities shall be designed and implemented."
+        },
+        {
+          "control_no": "7.6",
+          "title": "Working in secure areas",
+          "description": "Security measures for working in secure areas shall be designed and implemented."
+        },
+        {
+          "control_no": "7.8",
+          "title": "Equipment siting and protection",
+          "description": "Equipment shall be sited securely and protected."
+        },
+        {
+          "control_no": "7.11",
+          "title": "Supporting utilities",
+          "description": "Facilities protected from power failures and service disruptions."
+        },
+        {
+          "control_no": "7.12",
+          "title": "Cabling security",
+          "description": "Cables protected from interception, interference or damage."
+        }
+      ],
+      "priority": "Medium",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Strategies to Prevent Construction Site Theft",
+            "url": "https://blog.tenna.com/strategies-for-construction-site-theft-prevention"
+          },
+          {
+            "title": "Construction Site Theft Prevention Tips for 2024",
+            "url": "https://getsafeandsound.com/blog/construction-site-theft-prevention/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 7.8 – Equipment Siting and Protection",
+            "url": "https://www.isms.online/iso-27001/annex-a/7-8-equipment-siting-protection-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 A 7.11 Supporting Utilities",
+            "url": "https://preteshbiswas.com/2023/01/17/iso-270012022-a-7-11-supporting-utilities/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your process for managing security in relationships with third-party subcontractors, architects, and suppliers, especially regarding access to project data and site plans?",
+      "answer_set": [
+        "We do not include security requirements in our agreements with subcontractors or partners.",
+        "We have informal discussions about confidentiality but lack formal, contractual security clauses.",
+        "Our standard supplier and subcontractor agreements include baseline information security requirements and confidentiality clauses.",
+        "We have a formal process for addressing information security within all supplier agreements. This includes specific requirements for data handling, access control, and incident reporting, tailored to the sensitivity of the project information being shared."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.2",
+          "title": "Addressing information security within supplier agreements",
+          "description": "Relevant information security requirements shall be established and agreed with each supplier based on the type of supplier relationship."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Hard Hats and Hackers: The Growing Cyber Threats in Construction",
+            "url": "https://axaxl.com/fast-fast-forward/articles/hard-hats-and-hackers_the-growing-cyber-threats-in-construction"
+          },
+          {
+            "title": "Data Breaches, Cybersecurity, and the Construction Industry",
+            "url": "https://www.constructconnect.com/blog/data-breaches-cyber-security-construction-industry"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A Control 5.20 – Addressing Information Security within Supplier Agreements",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-20-information-security-within-supplier-agreements-2022/"
+          },
+          {
+            "title": "How To Implement ISO 27001 Control 5.20",
+            "url": "https://cyberzoni.com/standards/iso-27001/control-5-20/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you manage user access to corporate and project management systems, and ensure that access is removed promptly when an employee or subcontractor leaves a project?",
+      "answer_set": [
+        "We use shared accounts for project teams; access is not removed promptly upon project completion.",
+        "Unique accounts are used, but access rights are not based on a formal role, and de-provisioning is a slow, manual process.",
+        "A formal process exists for managing user identities and access rights based on project roles. Access is reviewed periodically and removed upon termination.",
+        "We use a centralized Identity Management system to control access to all project data. The full lifecycle of identities is managed, with access rights provisioned and revoked automatically based on project assignment and employment status."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.15",
+          "title": "Access control",
+          "description": "Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements."
+        },
+        {
+          "control_no": "5.16",
+          "title": "Identity management",
+          "description": "The full life cycle of identities shall be managed."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Building Cybersecurity in the Construction Industry",
+            "url": "https://www.deloitte.com/ce/en/industries/industrial-construction/perspectives/ce-building-cybersecurity-in-the-construction-industry.html"
+          },
+          {
+            "title": "Cybersecurity Strategies for the Construction Industry",
+            "url": "https://www.deltek.com/en/blog/construction-cybersecurity-strategies"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.15 – Access Control",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-15-access-control-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.16 – Identity Management",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-16-identity-management-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How does your company plan for and maintain operations and information security during a major disruption, such as a site shutdown, supply chain failure, or cyberattack?",
+      "answer_set": [
+        "We have no formal plan to manage security or continue operations during a disruption.",
+        "We have some backup procedures for office data, but no plan for major site or project disruptions.",
+        "We have a business continuity plan that covers major disruptions. We plan how to maintain an appropriate level of information security during these events.",
+        "We have a comprehensive, tested business continuity and crisis management plan. This plan specifically addresses how to maintain information security, protect assets, and recover operations efficiently during any significant disruption."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.29",
+          "title": "Information security during disruption",
+          "description": "The organization shall plan how to maintain information security at an appropriate level during disruption."
+        }
+      ],
+      "priority": "Medium",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Blueprint for Recovery: Disaster Planning in the Construction Industry",
+            "url": "https://www.nextleveltech.com/blog-post/disaster-recovery-plan-for-construction-company"
+          },
+          {
+            "title": "Business Continuity Planning: Survive Any Disruption",
+            "url": "https://horne.com/business-continuity-planning/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.29 Information Security During Disruption",
+            "url": "https://hightable.io/iso-27001-annex-a-5-29-information-security-during-disruption/"
+          },
+          {
+            "title": "Control 5.29 – Information Security During Disruption",
+            "url": "https://www.isms.online/iso-27002/control-5-29-information-security-during-disruption/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What security measures are in place to protect data on mobile devices (laptops, tablets, phones) used by project managers and on-site personnel?",
+      "answer_set": [
+        "We have no security policies or controls for mobile devices.",
+        "We advise employees to use a passcode, but there are no enforced technical controls like encryption or remote wipe.",
+        "A formal remote work and mobile device policy is in place. Company-provided devices are encrypted and have anti-malware installed.",
+        "All devices (company-owned or BYOD) accessing project data are managed through a Mobile Device Management (MDM) or Unified Endpoint Management (UEM) solution. This enforces encryption, strong passcodes, remote wipe capabilities, and secure application installation."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "6.7",
+          "title": "Remote working",
+          "description": "Security measures shall be implemented when personnel are working remotely to protect information accessed, processed, or stored outside the organization’s premises."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Implementing Mobile Device Management in Construction Firms",
+            "url": "https://weareconker.com/blog/implementing-mobile-device-management-in-construction-firms/"
+          },
+          {
+            "title": "Mobile Device Security Checklist for Construction Companies",
+            "url": "https://cmitsolutions.com/bellevue-wa-1140/blog/mobile-device-security-checklist-for-construction-companies/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 6.7 – Remote Working",
+            "url": "https://www.isms.online/iso-27001/annex-a/6-7-remote-working-2022/"
+          },
+          {
+            "title": "ISO 27001 Remote Working: Annex A 6.7",
+            "url": "https://hightable.io/iso-27001-annex-a-6-7-remote-working/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you manage the installation of software and use of administrative tools on both office computers and on-site operational systems?",
+      "answer_set": [
+        "Users can install any software they want and have full administrative rights on their computers.",
+        "We have procedures for office systems, but on-site computers are unmanaged.",
+        "We have documented procedures to manage software installation on operational systems, and the use of privileged utility programs is restricted.",
+        "A strict policy and technical controls are in place to manage all software installations. The use of programs with privileged access is tightly restricted, logged, and controlled across all company systems, both in the office and on-site."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.18",
+          "title": "Use of privileged utility programs",
+          "description": "Use of utility programs that override controls must be restricted and tightly controlled."
+        },
+        {
+          "control_no": "8.19",
+          "title": "Installation of software on operational systems",
+          "description": "Procedures must ensure secure management of software installation on systems."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Managing Endpoints in Engineering, Architecture, and Construction Firms",
+            "url": "https://www.egroup-us.com/news/managing-endpoints-in-engineering-architecture-and-construction-firms/"
+          },
+          {
+            "title": "Best Practices for Construction Data Management",
+            "url": "https://www.theaccessgroup.com/en-us/construction/resources/construction-data-management/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 8.18 – Use of Privileged Utility Programs",
+            "url": "https://www.isms.online/iso-27001/annex-a/8-18-use-of-privileged-utility-programs-2022/"
+          },
+          {
+            "title": "ISO 27001 Control 8.19 – Installation of Software on Operational Systems",
+            "url": "https://advisera.com/iso27001/control-8-19-installation-of-software-on-operational-systems/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you ensure that all personnel, from executives to on-site crews, undergo appropriate background checks and understand their information security responsibilities?",
+      "answer_set": [
+        "We do not perform background checks or provide security training.",
+        "Background checks are conducted for office staff only. Security is not formally discussed with on-site teams.",
+        "Background verification checks are carried out for all candidates prior to joining. All staff receive basic security awareness training.",
+        "A formal screening process is applied to all personnel based on their role and access to sensitive information. Security responsibilities are included in contracts, and regular, role-based security training is provided to everyone, including specific guidance for on-site risks."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "6.1",
+          "title": "Screening",
+          "description": "Background verification checks on all candidates shall be carried out prior to joining the organization and on an ongoing basis, considering laws, regulations, business needs, and perceived risks."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Background Checks for Construction and Manufacturing: A Guide",
+            "url": "https://www.backgroundchecks.com/learning-center/background-checks-for-construction-and-manufacturing-a-guide"
+          },
+          {
+            "title": "Why Construction Industry Businesses Need Pre-Employment Screening",
+            "url": "https://www.checkmate.tech/post/a-stronger-workforce---why-construction-industry-businesses-need-pre-employment-screening-"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 6.1 – Screening",
+            "url": "https://www.isms.online/iso-27001/annex-a/6-1-screening-2022/"
+          },
+          {
+            "title": "ISO 27002:2022 Control 6.1 – Screening",
+            "url": "https://www.isms.online/iso-27002/control-6-1-screening/"
+          }
+        ]
+      }
+    }
+  ]
+}

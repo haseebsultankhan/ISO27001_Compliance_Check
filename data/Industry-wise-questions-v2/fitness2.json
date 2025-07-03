@@ -1,0 +1,323 @@
+{
+  "industry": "Fitness",
+  "survey_questions": [
+    {
+      "question": "How does your fitness center's management establish and enforce security policies to protect member data and business operations, and how is compliance reviewed?",
+      "answer_set": [
+        "We do not have formal, written security policies.",
+        "Policies exist but are not consistently enforced by management, and compliance is not formally reviewed.",
+        "Management has defined and approved key security policies. Compliance with these policies is checked periodically.",
+        "A comprehensive set of security policies is defined, approved by management, and enforced for all staff. Compliance is regularly reviewed, and the overall security approach is subject to independent review."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.4",
+          "title": "Management responsibilities",
+          "description": "Management shall require all personnel to apply information security in accordance with the established information security policy, topic-specific policies and procedures of the organization."
+        },
+        {
+          "control_no": "5.35",
+          "title": "Independent review of information security",
+          "description": "The organization’s approach to managing information security and its implementation including people, processes and technologies shall be reviewed independently at planned intervals, or when significant changes occur."
+        },
+        {
+          "control_no": "5.36",
+          "title": "Compliance with policies, rules and standards for information security",
+          "description": "Compliance with the organization’s information security policy, topic-specific policies, rules and standards shall be regularly reviewed."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "7 Ways to Protect Your Health Club From a Data Breach",
+            "url": "https://www.healthandfitness.org/improve-your-club/7-ways-to-protect-your-health-club-from-a-data-breach/"
+          },
+          {
+            "title": "Protecting Your Health Club Members' Health & Data Privacy",
+            "url": "https://www.healthandfitness.org/improve-your-club/protecting-your-health-club-members-health-data-privacy/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.4 – Management Responsibilities",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-4-management-responsibilities-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.35 – Independent Review of Information Security",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-35-independent-review-of-information-security-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your approach to managing access for members and staff, covering both physical entry to the facility and logical access to member management systems?",
+      "answer_set": [
+        "Access is managed informally with physical keys or shared codes. We use shared logins for our software.",
+        "We use key cards/fobs for physical entry, but access rights are not customized (e.g., member vs. staff). Unique logins are used for software, but permissions are not restricted by role.",
+        "Formal policies control physical access (e.g., differentiating member, staff, and restricted areas) and logical access to software is based on job roles.",
+        "An integrated system manages both physical and logical access based on defined roles. The full lifecycle of identities is managed, with access rights automatically provisioned and revoked based on membership/employment status."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.15",
+          "title": "Access control",
+          "description": "Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements."
+        },
+        {
+          "control_no": "5.16",
+          "title": "Identity management",
+          "description": "The full life cycle of identities shall be managed."
+        },
+        {
+          "control_no": "7.3",
+          "title": "Securing offices, rooms and facilities",
+          "description": "Physical security for offices, rooms and facilities shall be designed and implemented."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Best Door Entry System Options For Gyms",
+            "url": "https://www.getkisi.com/blog/entry-systems-for-gyms"
+          },
+          {
+            "title": "The 2024 Franchise Forecast (Security & Access Tech Trend)",
+            "url": "https://clubsolutionsmagazine.com/2024/07/the-2024-franchise-forecast/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.15 – Access Control",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-15-access-control-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.16 – Identity Management",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-16-identity-management-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you ensure that third-party service providers (e.g., member management software, payment processors, cleaning services) operate securely and protect your data?",
+      "answer_set": [
+        "We select providers based on features and cost, without a formal security review.",
+        "We have informal discussions about security with some providers, but it is not a contractual requirement.",
+        "We review the security practices of critical providers and include basic security and privacy clauses in our agreements.",
+        "We have a formal process to assess the security of all key suppliers. Our agreements contain specific information security requirements that are agreed upon before services begin."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.2",
+          "title": "Addressing information security within supplier agreements",
+          "description": "Relevant information security requirements shall be established and agreed with each supplier based on the type of supplier relationship."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Cybersecurity: Strong and Secure (Fitness Vendor Perspective)",
+            "url": "https://clubsolutionsmagazine.com/2022/07/cybersecurity-strong-and-secure/"
+          },
+          {
+            "title": "The Value of Better Data in Third-Party Risk Assessments",
+            "url": "https://www.securitymagazine.com/articles/95169-the-value-of-better-data-in-third-party-risk-assessments"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.20 – Information Security Within Supplier Agreements",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-20-information-security-within-supplier-agreements-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.21 – Managing Information Security in the ICT Supply Chain",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-21-managing-information-security-ict-supply-chain-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What plans are in place to ensure your gym can continue to operate and maintain security during a major disruption, such as a power outage or a failure of your primary software systems?",
+      "answer_set": [
+        "We have no formal plans to handle such disruptions.",
+        "We react to disruptions as they happen. We may have data backups but do not test them. We have no plan for utility failures.",
+        "We have a documented plan for key disruptions (e.g., power, internet outage) and we perform regular, tested data backups for our member management system.",
+        "We have a tested business continuity plan. This includes procedures to maintain security during a disruption, backup power for critical systems (e.g., access control, emergency lighting), and verified data backups."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.29",
+          "title": "Information security during disruption",
+          "description": "The organization shall plan how to maintain information security at an appropriate level during disruption."
+        },
+        {
+          "control_no": "7.11",
+          "title": "Supporting utilities",
+          "description": "Facilities protected from power failures and service disruptions."
+        }
+      ],
+      "priority": "Medium",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Types of Data Fitness Clubs Need to Backup, and Why",
+            "url": "https://www.backupify.com/blog/types-of-data-fitness-clubs-need-to-backup-and-why/"
+          },
+          {
+            "title": "Optimizing Data Resiliency Strategies to Improve Business Continuity",
+            "url": "https://www.securitymagazine.com/articles/100668-optimizing-data-resiliency-strategies-to-improve-business-continuity"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27002:2022 Control 5.29 – Information Security During Disruption",
+            "url": "https://www.isms.online/iso-27002/control-5-29-information-security-during-disruption/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 7.11 – Supporting Utilities",
+            "url": "https://www.isms.online/iso-27001/annex-a/7-11-supporting-utilities-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you manage security related to your staff, from background checks before hiring to securing their access when they work remotely (e.g., a manager accessing schedules from home)?",
+      "answer_set": [
+        "We do not perform background checks, and we have no security policy for remote work.",
+        "Background checks are conducted for some, but not all, roles. Remote work is allowed but there are no specific security measures enforced.",
+        "Background screening is a standard part of our hiring process for all staff. We have a formal remote working policy that requires secure access methods.",
+        "A formal screening process is applied to all personnel based on their role. We have a robust remote working policy with enforced technical controls (e.g., VPN, multi-factor authentication) for any access to member or business data from outside the facility."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "6.1",
+          "title": "Screening",
+          "description": "Background verification checks on all candidates shall be carried out prior to joining the organization and on an ongoing basis, considering laws, regulations, business needs, and perceived risks."
+        },
+        {
+          "control_no": "6.7",
+          "title": "Remote working",
+          "description": "Security measures shall be implemented when personnel are working remotely to protect information accessed, processed, or stored outside the organization’s premises."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Fitness Risk Management: Your Safety Shield (Background Checks)",
+            "url": "https://clubsolutionsmagazine.com/2019/01/fitness-risk-management-safety/"
+          },
+          {
+            "title": "A Critical Challenge: Addressing Insider Threats in Hybrid Work",
+            "url": "https://www.securitymagazine.com/articles/101324-a-critical-challenge-understanding-and-addressing-insider-threats"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 6.1 – Screening",
+            "url": "https://www.isms.online/iso-27001/annex-a/6-1-screening-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 6.7 – Remote Working",
+            "url": "https://www.isms.online/iso-27001/annex-a/6-7-remote-working-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you protect member and business records (digital and physical) and control the software installed on your computer systems?",
+      "answer_set": [
+        "Records are not specifically protected from loss or unauthorized access. Staff can install any software on company computers.",
+        "Sensitive records are kept in locked offices, but digital records lack specific protection. Software installation is not formally managed.",
+        "We have procedures to protect physical and digital records. We also have a process to manage what software can be installed on operational systems.",
+        "Formal policies and technical controls are in place to protect all records from loss, unauthorized access, or release. The installation of all software is managed by a secure procedure, and the use of privileged administrative tools is tightly restricted and controlled."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.33",
+          "title": "Protection of records",
+          "description": "Records shall be protected from loss, destruction, falsification, unauthorized access and unauthorized release."
+        },
+        {
+          "control_no": "8.18",
+          "title": "Use of privileged utility programs",
+          "description": "Use of utility programs that override controls must be restricted and tightly controlled."
+        },
+        {
+          "control_no": "8.19",
+          "title": "Installation of software on operational systems",
+          "description": "Procedures must ensure secure management of software installation on systems."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Protecting Your Gym's Member Data in a Digital World",
+            "url": "https://www.healthandfitness.org/improve-your-club/protecting-your-gyms-member-data-in-a-digital-world/"
+          },
+          {
+            "title": "It's Time for SMBs to Protect Against Ransomware",
+            "url": "https://www.securitymagazine.com/articles/97388-its-time-for-smbs-to-protect-against-ransomware"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.33 – Protection of Records",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-33-protection-of-records-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 8.18 – Use of Privileged Utility Programs",
+            "url": "https://www.isms.online/iso-27001/annex-a/8-18-use-of-privileged-utility-programs-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How does your organization stay informed about security threats and maintain contact with relevant authorities or industry groups?",
+      "answer_set": [
+        "We do not actively seek threat information or maintain such contacts.",
+        "We may hear about threats through general news but have no formal process to analyze them or established contacts.",
+        "We subscribe to some security newsletters or bulletins and have contact information for local law enforcement.",
+        "We actively maintain contact with relevant authorities (e.g., local police for physical security) and special interest groups (e.g., fitness industry associations) to stay informed about relevant physical and cyber threats."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.5",
+          "title": "Contact with authorities",
+          "description": "The organization shall establish and maintain contact with relevant authorities."
+        },
+        {
+          "control_no": "5.6",
+          "title": "Contact with special interest groups",
+          "description": "The organization shall establish and maintain contact with special interest groups or other specialist security forums and professional associations."
+        }
+      ],
+      "priority": "Medium",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "The Latest Fitness Industry Alerts & Policy Updates",
+            "url": "https://www.healthandfitness.org/improve-your-club/industry-news/the-latest-fitness-industry-alerts-policy-updates/"
+          },
+          {
+            "title": "18 Safety Considerations for Your Health Club Reopening Plan",
+            "url": "https://www.healthandfitness.org/improve-your-club/safety-considerations-for-your-health-club-reopening-plan/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.5 – Contact with Government Authorities",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-5-contact-with-government-authorities-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.6 – Contact with Special Interest Groups",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-6-contact-with-special-interest-groups-2022/"
+          }
+        ]
+      }
+    }
+  ]
+}

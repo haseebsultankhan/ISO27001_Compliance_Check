@@ -1,0 +1,422 @@
+{
+  "industry": "Education",
+  "survey_questions": [
+    {
+      "question": "How does your institution govern the protection of sensitive data, specifically student records (PII) and academic research (IP), in compliance with regulations like FERPA or GDPR?",
+      "answer_set": [
+        "We do not have a formal data governance program or policies for protecting student or research data.",
+        "We are aware of privacy regulations, but policies for data classification, handling, and transfer are not formally documented or enforced.",
+        "A formal data governance framework exists. We classify student and research data, and have acceptable use and transfer policies. We track relevant legal and regulatory requirements.",
+        "We have a comprehensive data governance program led by a dedicated officer (e.g., DPO). All sensitive data is classified, labelled, and protected according to strict policies. Compliance is regularly audited."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.1",
+          "title": "Policies for information security",
+          "description": "Information security policy and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel and relevant interested parties, and reviewed at planned intervals and if significant changes occur."
+        },
+        {
+          "control_no": "5.12",
+          "title": "Classification of information",
+          "description": "Information shall be classified according to the information security needs of the organization based on confidentiality, integrity, availability and relevant interested party requirements."
+        },
+        {
+          "control_no": "5.31",
+          "title": "Legal, statutory, regulatory and contractual requirements",
+          "description": "Legal, statutory, regulatory and contractual requirements relevant to information security and the organization’s approach to meet these requirements shall be identified, documented and kept up to date."
+        },
+        {
+          "control_no": "5.32",
+          "title": "Intellectual property rights",
+          "description": "The organization shall implement appropriate procedures to protect intellectual property rights."
+        },
+        {
+          "control_no": "5.34",
+          "title": "Privacy and protection of personally identifiable information (PII)",
+          "description": "The organization shall identify and meet the requirements regarding the preservation of privacy and protection of PII according to applicable laws and regulations and contractual requirements."
+        }
+      ],
+      "priority": "Medium",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Data Security: K-12 and Higher Education",
+            "url": "https://studentprivacy.ed.gov/data-security-k-12-and-higher-education"
+          },
+          {
+            "title": "Data Governance – Protecting Student Privacy",
+            "url": "https://studentprivacy.ed.gov/topic/data-governance"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.31 – Legal, Statutory, Regulatory and Contractual Requirements",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-31-legal-statutory-regulatory-contractual-requirements-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.34 – Privacy and Protection of PII",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-34-privacy-and-protection-of-pii-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you manage user identities and control access for a diverse population (students, faculty, staff, alumni, guests) across various systems like the SIS, LMS, and library databases?",
+      "answer_set": [
+        "We use shared accounts for some groups; access rights are not based on specific roles.",
+        "Unique accounts are created, but access rights are broad and inconsistently removed upon departure or graduation.",
+        "A formal Identity and Access Management (IAM) process is in place. Access is role-based (e.g., student, instructor) and provisioned/de-provisioned based on enrollment/employment status.",
+        "We use an automated IAM system that integrates with our SIS and HR systems. It enforces the principle of least privilege, with regular access reviews and immediate, automated de-provisioning."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.15",
+          "title": "Access control",
+          "description": "Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements."
+        },
+        {
+          "control_no": "5.16",
+          "title": "Identity management",
+          "description": "The full life cycle of identities shall be managed."
+        },
+        {
+          "control_no": "5.17",
+          "title": "Authentication information",
+          "description": "Allocation and management of authentication information shall be controlled by a management process, including advising personnel on appropriate handling of authentication information."
+        },
+        {
+          "control_no": "5.18",
+          "title": "Access rights",
+          "description": "Access rights to information and other associated assets shall be provisioned, reviewed, modified and removed in accordance with the organization’s topic-specific policy on and rules for access control."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Identity and Access Management – EDUCAUSE Library Topic Overview",
+            "url": "https://library.educause.edu/topics/cybersecurity/identity-and-access-management"
+          },
+          {
+            "title": "Addressing Higher Education's Unique Identity Management Challenges",
+            "url": "https://er.educause.edu/blogs/sponsored/2019/2/addressing-higher-educations-unique-identity-management-challenges"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.15 – Access Control",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-15-access-control-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.18 – Access Rights",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-18-access-rights-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your institution's process for handling security incidents, from initial reporting to resolution, and how do you ensure lessons are learned to prevent recurrence?",
+      "answer_set": [
+        "We have no formal incident response plan or reporting mechanism.",
+        "Incidents are handled reactively by the IT team as they are discovered. There is no formal post-incident review.",
+        "A documented incident response plan exists with defined roles. We have a formal process for event reporting, assessment, and response. Post-incident reviews are conducted for major incidents.",
+        "We have a dedicated, well-tested incident response plan with playbooks for specific scenarios (e.g., student data breach). All incidents are tracked, and knowledge gained is formally fed back into our security controls and awareness training programs."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.24",
+          "title": "Information security incident management planning and preparation",
+          "description": "The organization shall plan and prepare for managing information security incidents by defining, establishing and communicating information security incident management processes, roles and responsibilities."
+        },
+        {
+          "control_no": "5.25",
+          "title": "Assessment and decision on information security events",
+          "description": "The organization shall assess information security events and decide if they are to be categorized as information security incidents."
+        },
+        {
+          "control_no": "5.26",
+          "title": "Response to information security incidents",
+          "description": "Information security incidents shall be responded to in accordance with the documented procedures."
+        },
+        {
+          "control_no": "5.27",
+          "title": "Learning from information security incidents",
+          "description": "Knowledge gained from information security incidents shall be used to strengthen and improve the information security controls."
+        },
+        {
+          "control_no": "6.8",
+          "title": "Information security event reporting",
+          "description": "A mechanism shall be in place for personnel to report observed or suspected security events through appropriate channels."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Cybersecurity Incident Management and Response Guide – EDUCAUSE",
+            "url": "https://er.educause.edu/articles/2024/1/cybersecurity-incident-management-and-response-guide"
+          },
+          {
+            "title": "NIST SP 800-61 Rev. 3 – Computer Security Incident Handling Guide",
+            "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.24 – Incident Management Planning & Preparation",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-24-incident-management-planning-and-preparation-2022/"
+          },
+          {
+            "title": "ISO 27002 Control 5.24 – Information Security Incident Management Planning and Preparation",
+            "url": "https://www.isms.online/iso-27002/control-5-24-information-security-incident-management-planning-and-preparation/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you ensure the continuous availability of critical educational and administrative services (e.g., LMS, online enrollment, email) during a disruption?",
+      "answer_set": [
+        "We have no business continuity plan or data backup strategy.",
+        "Backups are performed inconsistently and are not tested. We do not have a formal continuity plan for our core educational platforms.",
+        "A business continuity plan is in place for critical services. Data backups are regularly performed and tested for restorability. We have some redundant infrastructure.",
+        "We have a comprehensive, tested ICT readiness plan that ensures business continuity. It includes redundant systems for critical platforms, automated and verified backups, and clear procedures to maintain operations during any disruption."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.29",
+          "title": "Information security during disruption",
+          "description": "The organization shall plan how to maintain information security at an appropriate level during disruption."
+        },
+        {
+          "control_no": "5.3",
+          "title": "ICT readiness for business continuity",
+          "description": "ICT readiness shall be planned, implemented, maintained and tested based on business continuity objectives and ICT continuity requirements."
+        },
+        {
+          "control_no": "8.13",
+          "title": "Information backup",
+          "description": "Backup of data and systems shall be maintained and tested regularly."
+        },
+        {
+          "control_no": "8.14",
+          "title": "Redundancy of information processing facilities",
+          "description": "Redundancy shall be implemented to ensure system availability."
+        }
+      ],
+      "priority": "Medium",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Top 10 IT Issues, 2022: The Higher Education We Deserve (Business Continuity Insights)",
+            "url": "https://er.educause.edu/articles/2021/11/top-10-it-issues-2022-the-higher-education-we-deserve"
+          },
+          {
+            "title": "ISO/IEC 27031:2011 Guidelines for ICT Readiness for Business Continuity",
+            "url": "https://nvlpubs.nist.gov/nistpubs/ir/2015/NIST.IR.8074v2.pdf"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.29 – Information Security During Disruption",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-29-information-security-during-disruption-2022/"
+          },
+          {
+            "title": "ISO 27002 Control 5.29 – Information Security During Disruption",
+            "url": "https://www.isms.online/iso-27002/control-5-29-information-security-during-disruption/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your approach to managing security for personnel and the thousands of user-owned devices (BYOD) connecting to the campus network?",
+      "answer_set": [
+        "We do not perform background checks on staff or have any security controls for personal devices on the network.",
+        "We have a guest Wi-Fi network but no policies or security measures for staff or student devices on the main network. Security training is not provided.",
+        "We perform background screening for staff. We provide a secure remote working solution and have a policy for endpoint device security. We conduct annual security awareness training.",
+        "A robust HR security process is in place (screening, contracts, disciplinary process). We use Network Access Control (NAC) to enforce security requirements (e.g., patching, anti-malware) on all devices before they can connect. We run a continuous, engaging security awareness program."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "6.1",
+          "title": "Screening",
+          "description": "Background verification checks on all candidates shall be carried out prior to joining the organization and on an ongoing basis, considering laws, regulations, business needs, and perceived risks."
+        },
+        {
+          "control_no": "6.3",
+          "title": "Information security awareness, education and training",
+          "description": "Personnel and relevant interested parties shall receive appropriate information security awareness, education, and training, including updates of the organization's policies and procedures relevant to their job function."
+        },
+        {
+          "control_no": "6.7",
+          "title": "Remote working",
+          "description": "Security measures shall be implemented when personnel are working remotely to protect information accessed, processed, or stored outside the organization’s premises."
+        },
+        {
+          "control_no": "8.1",
+          "title": "User end point devices",
+          "description": "Information stored on, processed by or accessible via user endpoint devices shall be protected."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "BYOD Is a Big Deal on Campus – EdTech Magazine",
+            "url": "https://edtechmagazine.com/higher/article/2012/05/byod-big-deal-campus"
+          },
+          {
+            "title": "Network Access Control Is No Longer a Luxury on Campus",
+            "url": "https://edtechmagazine.com/higher/article/2013/02/network-access-control-no-longer-luxury-campus"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 6.7 – Remote Working",
+            "url": "https://www.isms.online/iso-27001/annex-a/6-7-remote-working-2022/"
+          },
+          {
+            "title": "ISO 27002 Control 8.1 – User Endpoint Devices",
+            "url": "https://www.isms.online/iso-27002/control-8-1-user-endpoint-devices/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you secure your network infrastructure, specifically by segregating different user groups (e.g., student Wi-Fi, administrative LAN, research networks)?",
+      "answer_set": [
+        "All users and systems are on a single, flat network.",
+        "We have a separate guest Wi-Fi, but all internal users (student, faculty, admin) share the same network.",
+        "We use network segmentation (e.g., VLANs) to separate student, administrative, and sensitive research networks.",
+        "We enforce a strict network segmentation architecture. Firewalls control traffic flow between all segments, access is logged and monitored, and security policies are applied based on the trust level of each network zone."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.22",
+          "title": "Segregation of networks",
+          "description": "Groups of services, users, and systems shall be segregated in the network."
+        },
+        {
+          "control_no": "8.15",
+          "title": "Logging",
+          "description": "Logs that record activities, exceptions, and events shall be produced, stored, protected, and analyzed."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Campus LAN and Wireless LAN Solution Design Guide – Cisco",
+            "url": "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Campus/cisco-campus-lan-wlan-design-guide.html"
+          },
+          {
+            "title": "Segment Your Campus Network for Stronger Security",
+            "url": "https://edtechmagazine.com/higher/article/2018/04/segment-your-campus-network-stronger-security"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 8.22 – Segregation of Networks",
+            "url": "https://www.isms.online/iso-27001/annex-a/8-22-segregation-of-networks-2022/"
+          },
+          {
+            "title": "ISO 27002 Control 8.22 – Segregation of Networks",
+            "url": "https://www.isms.online/iso-27002/control-8-22-segregation-of-networks/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How does your institution manage the security risks associated with acquiring and using third-party software and cloud-based EdTech services?",
+      "answer_set": [
+        "We do not review the security of third-party applications before they are used.",
+        "Individual departments acquire and use EdTech services without a central security or risk review process.",
+        "We have a process to review and include security requirements in contracts for major third-party services.",
+        "We have a formal supplier risk management program. All third-party services undergo a security and privacy review before acquisition, and agreements include specific security, privacy, and data ownership clauses."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.2",
+          "title": "Addressing information security within supplier agreements",
+          "description": "Relevant information security requirements shall be established and agreed with each supplier based on the type of supplier relationship."
+        },
+        {
+          "control_no": "8.26",
+          "title": "Application security requirements",
+          "description": "Information security requirements must be defined and approved for application development/acquisition."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Higher Education Community Vendor Assessment Toolkit (HECVAT)",
+            "url": "https://www.educause.edu/higher-education-community-vendor-assessment-toolkit"
+          },
+          {
+            "title": "Accessibility in Technology Acquisition with HECVAT 4",
+            "url": "https://er.educause.edu/articles/2025/4/accessibility-in-technology-acquisition-with-hecvat-4"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.21 – Managing Information Security in the ICT Supply Chain",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-21-managing-information-security-ict-supply-chain-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.19 – Information Security in Supplier Relationships",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-19-information-security-supplier-relationships-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your process for managing changes to critical IT systems (like the SIS or LMS) and ensuring development, testing, and production environments are kept separate?",
+      "answer_set": [
+        "Changes are made directly to production systems; we do not have separate environments.",
+        "We have a test environment, but changes are not formally managed or tracked. Test data may include real student information.",
+        "A formal change management process is followed for critical systems. Development, test, and production environments are separated. Test data is managed.",
+        "An ITIL-based change management process is strictly enforced. Environments are securely separated, and all changes are tested and approved before deployment. We use properly sanitized or generated data for testing to protect student privacy."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.31",
+          "title": "Separation of development, test and production environments",
+          "description": "Development, test, and production environments shall be separated and secured."
+        },
+        {
+          "control_no": "8.32",
+          "title": "Change management",
+          "description": "All changes to information systems shall follow a change management procedure."
+        },
+        {
+          "control_no": "8.33",
+          "title": "Test information",
+          "description": "Test data shall be securely managed and protected."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "ITIL Service Transition FAQs – EDUCAUSE",
+            "url": "https://www.educause.edu/working-groups/resources/service-design-and-transition-toolkit/service-design-and-transition-faqs"
+          },
+          {
+            "title": "HECVAT Lite – Change Management & Separation of Environments (template reference)",
+            "url": "https://library.educause.edu/-/media/files/library/2023/2/hecvatlite304.xlsx"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27002 Control 8.31 – Separation of Development, Test and Production Environments",
+            "url": "https://www.isms.online/iso-27002/control-8-31-separation-of-development-test-and-production-environments/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 8.32 – Change Management",
+            "url": "https://www.isms.online/iso-27001/annex-a/8-32-change-management-2022/"
+          }
+        ]
+      }
+    }
+  ]
+}

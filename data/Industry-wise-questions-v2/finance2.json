@@ -1,0 +1,632 @@
+{
+  "industry": "Finance",
+  "survey_questions": [
+    {
+      "question": "How does your organization establish and maintain its information security governance framework, ensuring management approval, communication to staff, and regular reviews?",
+      "answer_set": [
+        "We have no formally documented information security policies.",
+        "Policies exist but are not formally approved by management, are outdated, or are not communicated effectively to all personnel.",
+        "Information security policies are defined, approved by management, and communicated to staff. Reviews happen, but on an ad-hoc basis.",
+        "A comprehensive set of security policies is defined, approved, published, and regularly reviewed (at least annually or upon significant change). All personnel are required to formally acknowledge them."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.1",
+          "title": "Policies for information security",
+          "description": "Information security policy and topic-specific policies shall be defined, approved by management, published, communicated to and acknowledged by relevant personnel and relevant interested parties, and reviewed at planned intervals and if significant changes occur."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "FFIEC IT Examination Handbook – Information Security Booklet",
+            "url": "https://www.ffiec.gov/sites/default/files/media/press-releases/2016/2016-%20it-handbook-information-security-booklet.pdf"
+          },
+          {
+            "title": "FDIC FIL-47-2021: Updated FFIEC IT Examination Handbook",
+            "url": "https://www.fdic.gov/news/financial-institution-letters/2021/fil21047.html"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "FFIEC Cybersecurity Awareness Resources",
+            "url": "https://www.ffiec.gov/resources/cybersecurity-awareness"
+          },
+          {
+            "title": "NIST SP 800-100 – Information Security Handbook for Managers",
+            "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-100.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How are information security roles, responsibilities, and segregation of duties defined and enforced within your organization, particularly for handling sensitive financial data and transactions?",
+      "answer_set": [
+        "Roles and responsibilities are not formally defined; staff perform multiple, potentially conflicting duties.",
+        "Responsibilities are informally understood, but not documented. Segregation of duties is attempted but not systematically enforced.",
+        "Key roles and responsibilities are documented, and a formal policy for segregation of duties exists for critical financial functions.",
+        "All information security roles are formally defined, allocated, and integrated into job descriptions. Conflicting duties (e.g., transaction initiation and approval) are strictly segregated and enforced through technical and procedural controls."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.2",
+          "title": "Information security roles and responsibilities",
+          "description": "Information security roles and responsibilities shall be defined and allocated according to the organization needs."
+        },
+        {
+          "control_no": "5.3",
+          "title": "Segregation of duties",
+          "description": "Conflicting duties and conflicting areas of responsibility shall be segregated."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Segregation of Duties in Financial Institutions",
+            "url": "https://www.safepaas.com/articles/segregation-of-duties-in-financial-institutions/"
+          },
+          {
+            "title": "Segregation of Duties: Examples of Roles, Duties & Violations",
+            "url": "https://pathlock.com/learn/segregation-of-duties-examples-of-roles-duties-and-violations/"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "FFIEC IT Handbook – Management Booklet (Responsibilities & SoD)",
+            "url": "https://ithandbook.ffiec.gov/it-booklets/management.aspx"
+          },
+          {
+            "title": "COSO Internal Control – Integrated Framework (2013)",
+            "url": "https://www.coso.org/Documents/990025P-Executive-Summary-final-may20.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How does your firm manage the lifecycle of user identities and access rights to financial systems and data, from onboarding to termination?",
+      "answer_set": [
+        "Access is granted using shared or generic accounts, and rights are rarely revoked upon termination.",
+        "User accounts are created and removed manually. Access rights are granted based on request, not a formal role, and reviews are infrequent.",
+        "A formal process exists for provisioning and de-provisioning access based on roles. Access rights are reviewed periodically (e.g., quarterly).",
+        "We use an automated Identity and Access Management (IAM) system that enforces role-based access control (RBAC) and the principle of least privilege. Access rights are provisioned automatically upon hiring, reviewed regularly, and revoked immediately upon termination."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.15",
+          "title": "Access control",
+          "description": "Rules to control physical and logical access to information and other associated assets shall be established and implemented based on business and information security requirements."
+        },
+        {
+          "control_no": "5.16",
+          "title": "Identity management",
+          "description": "The full life cycle of identities shall be managed."
+        },
+        {
+          "control_no": "5.18",
+          "title": "Access rights",
+          "description": "Access rights to information and other associated assets shall be provisioned, reviewed, modified and removed in accordance with the organization’s topic-specific policy on and rules for access control."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "NIST Identity & Access Management Resource Center",
+            "url": "https://www.nist.gov/identity-access-management"
+          },
+          {
+            "title": "NIST SP 1800-2 – Access Rights Management for the Financial Services Sector",
+            "url": "https://www.nccoe.nist.gov/publication/1800-2/VolB/index.html"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "FFIEC Cybersecurity Resource Guide – Access Management",
+            "url": "https://www.ffiec.gov/sites/default/files/media/press-releases/2022/2022-cybersecurity-resource-guide-ffiec.pdf"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.15 & 5.16 Controls Explained",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-15-access-control-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your approach to identifying, classifying, and handling information assets, particularly customer financial data and intellectual property?",
+      "answer_set": [
+        "We do not maintain an inventory of our information assets, and there is no classification scheme.",
+        "An informal inventory of assets exists. Some sensitive data is recognized, but there are no formal rules for its acceptable use or handling.",
+        "We maintain an inventory of key information assets with assigned owners. A classification scheme (e.g., Public, Internal, Confidential, Restricted) is defined and applied to major datasets.",
+        "A comprehensive, up-to-date inventory of all information assets is maintained. All data is classified, labelled, and handled according to formal acceptable use and information transfer rules based on its classification level."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.9",
+          "title": "Inventory of information and other associated assets",
+          "description": "An inventory of information and other associated assets, including owners, shall be developed and maintained."
+        },
+        {
+          "control_no": "5.1",
+          "title": "Acceptable use of information and other associated assets",
+          "description": "Rules for the acceptable use and procedures for handling information and other associated assets shall be identified, documented and implemented."
+        },
+        {
+          "control_no": "5.12",
+          "title": "Classification of information",
+          "description": "Information shall be classified according to the information security needs of the organization based on confidentiality, integrity, availability and relevant interested party requirements."
+        },
+        {
+          "control_no": "5.13",
+          "title": "Labelling of information",
+          "description": "An appropriate set of procedures for information labelling shall be developed and implemented in accordance with the information classification scheme adopted by the organization."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Data Classification Best Practices in Financial Services",
+            "url": "https://www.techtarget.com/searchsecurity/tip/Data-classification-best-practices-in-financial-services"
+          },
+          {
+            "title": "NIST NCCoE Project: Data Classification Practices",
+            "url": "https://www.nccoe.nist.gov/data-classification"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "FIPS 199 – Standards for Security Categorization of Information",
+            "url": "https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.199.pdf"
+          },
+          {
+            "title": "NIST SP 800-60 Vol. 1 Rev. 1 – Guide for Mapping Information Types",
+            "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-60v1r1.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How does your organization manage information security risks associated with third-party suppliers, from initial due diligence to ongoing monitoring?",
+      "answer_set": [
+        "We do not perform security assessments of our suppliers, even those handling sensitive financial data.",
+        "Security is discussed with critical suppliers, but requirements are not included in contracts and there is no ongoing monitoring.",
+        "We perform due diligence on new suppliers and include baseline security requirements in our agreements. Monitoring is informal and infrequent.",
+        "A comprehensive supplier risk management program is in place. It includes mandatory security assessments, contractual security clauses, regular monitoring of supplier performance, and management of risks in the ICT supply chain."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.19",
+          "title": "Information security in supplier relationships",
+          "description": "Processes and procedures shall be defined and implemented to manage the information security risks associated with the use of supplier’s products or services."
+        },
+        {
+          "control_no": "5.2",
+          "title": "Addressing information security within supplier agreements",
+          "description": "Relevant information security requirements shall be established and agreed with each supplier based on the type of supplier relationship."
+        },
+        {
+          "control_no": "5.21",
+          "title": "Managing information security in the ICT supply chain",
+          "description": "Processes and procedures shall be defined and implemented to manage the information security risks associated with the ICT products and services supply chain."
+        },
+        {
+          "control_no": "5.22",
+          "title": "Monitoring, review and change management of supplier services",
+          "description": "The organization shall regularly monitor, review, evaluate and manage change in supplier information security practices and service delivery."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "FFIEC Cybersecurity Resource Guide for Financial Institutions",
+            "url": "https://www.ffiec.gov/sites/default/files/media/press-releases/2022/2022-cybersecurity-resource-guide-ffiec.pdf"
+          },
+          {
+            "title": "CISA ICT Supply-Chain Risk Management Essentials",
+            "url": "https://www.cisa.gov/information-and-communications-technology-supply-chain-risk-management"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.21 – Managing Information Security in the ICT Supply Chain",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-21-managing-information-security-ict-supply-chain-2022/"
+          },
+          {
+            "title": "FFIEC Guidance on Third-Party Risk Management",
+            "url": "https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your firm's process for handling the full lifecycle of information security incidents, from initial detection and assessment to response and forensic evidence collection?",
+      "answer_set": [
+        "We have no formal incident response plan.",
+        "We react to incidents as they occur but lack a documented process, defined roles, or evidence collection procedures.",
+        "An incident response plan is documented with defined roles. Events are assessed to determine if they are incidents, and a response is coordinated.",
+        "We have a comprehensive, tested incident management plan. This includes 24/7 monitoring, formal event assessment, documented response procedures, and forensically sound evidence collection processes."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.24",
+          "title": "Information security incident management planning and preparation",
+          "description": "The organization shall plan and prepare for managing information security incidents by defining, establishing and communicating information security incident management processes, roles and responsibilities."
+        },
+        {
+          "control_no": "5.25",
+          "title": "Assessment and decision on information security events",
+          "description": "The organization shall assess information security events and decide if they are to be categorized as information security incidents."
+        },
+        {
+          "control_no": "5.26",
+          "title": "Response to information security incidents",
+          "description": "Information security incidents shall be responded to in accordance with the documented procedures."
+        },
+        {
+          "control_no": "5.28",
+          "title": "Collection of evidence",
+          "description": "The organization shall establish and implement procedures for the identification, collection, acquisition and preservation of evidence related to information security events."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "FFIEC IT Handbook – Information Security (Incident Response)",
+            "url": "https://www.ffiec.gov/sites/default/files/media/press-releases/2016/2016-%20it-handbook-information-security-booklet.pdf"
+          },
+          {
+            "title": "NIST SP 800-61 Rev. 3 – Computer Security Incident Handling Guide",
+            "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.24 – Incident Management Planning & Preparation",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-24-incident-management-planning-and-preparation-2022/"
+          },
+          {
+            "title": "FFIEC Cybersecurity Awareness – Incident Management Resources",
+            "url": "https://www.ffiec.gov/resources/cybersecurity-awareness"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you ensure your organization identifies and complies with all legal, regulatory (e.g., GDPR, PCI-DSS), and contractual requirements related to information security and PII protection?",
+      "answer_set": [
+        "We are not actively tracking legal or regulatory requirements relevant to our operations.",
+        "We are aware of some major regulations but do not have a formal process to document and ensure compliance.",
+        "A process is in place to identify and document relevant legal and contractual requirements, including those for PII. Compliance is reviewed periodically.",
+        "We maintain a comprehensive register of all legal, statutory, regulatory, and contractual requirements, which is regularly updated. Proactive processes and independent reviews are in place to ensure ongoing compliance."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.31",
+          "title": "Legal, statutory, regulatory and contractual requirements",
+          "description": "Legal, statutory, regulatory and contractual requirements relevant to information security and the organization’s approach to meet these requirements shall be identified, documented and kept up to date."
+        },
+        {
+          "control_no": "5.34",
+          "title": "Privacy and protection of personally identifiable information (PII)",
+          "description": "The organization shall identify and meet the requirements regarding the preservation of privacy and protection of PII according to applicable laws and regulations and contractual requirements."
+        }
+      ],
+      "priority": "Medium",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "PCI DSS – Data Security Standard (Official Site)",
+            "url": "https://www.pcisecuritystandards.org/standards/"
+          },
+          {
+            "title": "UK FCA 2025 Resilience Guidance for Financial Firms",
+            "url": "https://www.thetimes.co.uk/article/get-ready-for-your-own-crowdstrike-city-regulator-tells-firms-tp0t57pst"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 5.31 – Legal & Regulatory Requirements",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-31-legal-statutory-regulatory-contractual-requirements-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 5.34 – Privacy & PII Protection",
+            "url": "https://www.isms.online/iso-27001/annex-a/5-34-privacy-and-protection-of-pii-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What measures are in place to manage the human resources aspect of security, including background screening, security clauses in contracts, and awareness training?",
+      "answer_set": [
+        "We do not perform background checks, include security responsibilities in contracts, or provide security training.",
+        "Background checks are conducted for some roles. Security is mentioned during onboarding but not formalized in contracts or regular training.",
+        "Background checks are standard procedure, employment contracts include confidentiality and security responsibility clauses, and annual security awareness training is provided.",
+        "A robust HR security process is in place including ongoing screening for sensitive roles, clearly defined security responsibilities in contracts, and a continuous security awareness program with role-specific training and phishing simulations."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "6.1",
+          "title": "Screening",
+          "description": "Background verification checks on all candidates shall be carried out prior to joining the organization and on an ongoing basis, considering laws, regulations, business needs, and perceived risks."
+        },
+        {
+          "control_no": "6.2",
+          "title": "Terms and conditions of employment",
+          "description": "The employment contractual agreements shall state the personnel’s and the organization’s responsibilities for information security."
+        },
+        {
+          "control_no": "6.3",
+          "title": "Information security awareness, education and training",
+          "description": "Personnel and relevant interested parties shall receive appropriate information security awareness, education, and training, including updates of the organization's policies and procedures relevant to their job function."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Financial Services Background Checks – A Complete Guide",
+            "url": "https://iprospectcheck.com/financial-services-background-check-guide/"
+          },
+          {
+            "title": "CISA Cybersecurity Training & Exercises",
+            "url": "https://www.cisa.gov/cybersecurity-training-exercises"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27001:2022 Annex A 6.1 – Screening",
+            "url": "https://www.isms.online/iso-27001/annex-a/6-1-screening-2022/"
+          },
+          {
+            "title": "ISO 27001:2022 Annex A 6.3 – Security Awareness, Education & Training",
+            "url": "https://www.isms.online/iso-27001/annex-a/6-3-information-security-awareness-education-and-training-2022/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How does your organization manage sensitive data on physical storage media and ensure the secure disposal or re-use of equipment containing financial information?",
+      "answer_set": [
+        "Storage media and old equipment are disposed of without any data removal process.",
+        "We attempt to delete files from equipment before disposal, but there is no formal or verified process.",
+        "A formal policy exists for managing storage media throughout its lifecycle. Equipment is wiped using standard software before disposal or re-use.",
+        "All storage media is managed based on its data classification. A certified data destruction process (e.g., degaussing, physical shredding) is used for all media containing sensitive financial data, and a certificate of destruction is retained."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "7.1",
+          "title": "Storage media",
+          "description": "Managed through their life cycle: acquisition, use, transport, disposal based on classification and handling needs."
+        },
+        {
+          "control_no": "7.14",
+          "title": "Secure disposal or re-use of equipment",
+          "description": "Sensitive data and licensed software must be verified as removed before disposal or re-use."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "NIST SP 800-88 Rev. 1 – Guidelines for Media Sanitization",
+            "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-88r1.pdf"
+          },
+          {
+            "title": "Dead Media Beat: NIST Guidelines for Media Sterilization",
+            "url": "https://www.wired.com/beyond-the-beyond/2015/10/dead-media-beat-nist-guidelines-media-sterilization"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27002:2022 Control 7.14 – Secure Disposal or Re-Use of Equipment",
+            "url": "https://www.isms.online/iso-27002/control-7-14-secure-disposal-or-re-use-of-equipment/"
+          },
+          {
+            "title": "FFIEC IT Handbook – Operations Booklet (Media Disposal)",
+            "url": "https://ithandbook.ffiec.gov/it-booklets/architecture-infrastructure-and-operations.aspx"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What technical controls are implemented to restrict access to information, protect against malware, and manage system configurations securely?",
+      "answer_set": [
+        "No specific technical controls are in place; we rely on default system settings.",
+        "Basic antivirus software is installed, but there are no formal processes for access restriction or configuration management.",
+        "Access to sensitive data is restricted, enterprise-grade anti-malware is deployed, and secure configurations are defined for key systems.",
+        "A multi-layered defense is in place including: strict access controls, advanced endpoint protection (EDR), proactive vulnerability management, and automated configuration management to enforce hardened system builds."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.3",
+          "title": "Information access restriction",
+          "description": "Access to information and other associated assets shall be restricted in accordance with the established topic-specific policy on access control."
+        },
+        {
+          "control_no": "8.7",
+          "title": "Protection against malware",
+          "description": "Protection against malware shall be implemented and supported by appropriate user awareness."
+        },
+        {
+          "control_no": "8.9",
+          "title": "Configuration management",
+          "description": "Configurations of hardware, software, and networks shall be securely defined, monitored and reviewed."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "NIST SP 800-83 Rev. 1 – Malware Incident Prevention & Handling",
+            "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-83r1.pdf"
+          },
+          {
+            "title": "FFIEC Cybersecurity Resource Guide – Technical Controls",
+            "url": "https://www.ffiec.gov/news/press-releases/2022/an-10-03"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "CIS Critical Security Controls – Implementation Group IG3",
+            "url": "https://www.cisecurity.org/controls"
+          },
+          {
+            "title": "ISO 27002:2022 Control 8.7 – Protection Against Malware",
+            "url": "https://www.isms.online/iso-27002/control-8-7-protection-against-malware/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How are cryptographic controls, such as encryption and data masking, used to protect sensitive customer and transactional data both at rest and in transit?",
+      "answer_set": [
+        "We do not use encryption or other cryptographic controls.",
+        "Encryption is used in some specific instances (e.g., website HTTPS) but not as a general policy for sensitive data.",
+        "A policy for the use of cryptography is in place. Sensitive data is encrypted at rest in databases and in transit over public networks. Data masking is used in test environments.",
+        "Comprehensive cryptographic controls are implemented based on data classification. This includes strong encryption for all data at rest and in transit, robust key management processes, data masking for non-production use, and regular reviews of cryptographic standards."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.11",
+          "title": "Data masking",
+          "description": "Data masking shall follow access control policies and business/legal requirements."
+        },
+        {
+          "control_no": "8.24",
+          "title": "Use of cryptography",
+          "description": "Rules for cryptographic controls (e.g., key management) shall be defined and implemented."
+        },
+        {
+          "control_no": "8.12",
+          "title": "Data leakage prevention",
+          "description": "Data leakage prevention measures shall protect systems and networks handling sensitive data."
+        }
+      ],
+      "priority": "Medium",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "NIST SP 800-111 – Guide to Storage Encryption Technologies",
+            "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-111.pdf"
+          },
+          {
+            "title": "PCI DSS – Protect Cardholder Data Requirements",
+            "url": "https://www.pcisecuritystandards.org/standards/pci_dss.shtml"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "NIST SP 800-175B Rev. 1 – Guideline for Using Cryptographic Standards",
+            "url": "https://csrc.nist.gov/pubs/sp/800/175/b/r1/final"
+          },
+          {
+            "title": "ISO 27002:2022 Control 8.24 – Use of Cryptography",
+            "url": "https://www.isms.online/iso-27002/control-8-24-use-of-cryptography/"
+          }
+        ]
+      }
+    },
+    {
+      "question": "What is your firm's strategy for data backup, disaster recovery, and ensuring ICT readiness for business continuity?",
+      "answer_set": [
+        "We have no data backup or business continuity plans.",
+        "Data backups are performed irregularly and are not tested. A continuity plan exists on paper but has never been exercised.",
+        "Regular, automated backups are performed and stored off-site. A business continuity plan is documented and key ICT systems have identified recovery objectives (RTO/RPO).",
+        "A comprehensive business continuity and disaster recovery strategy is in place. It includes fully redundant systems, automated backups that are regularly tested for restorability, and a full DR exercise conducted at least annually to ensure ICT readiness."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "5.3",
+          "title": "ICT readiness for business continuity",
+          "description": "ICT readiness shall be planned, implemented, maintained and tested based on business continuity objectives and ICT continuity requirements."
+        },
+        {
+          "control_no": "8.13",
+          "title": "Information backup",
+          "description": "Backup of data and systems shall be maintained and tested regularly."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "FFIEC IT Handbook – Business Continuity Management Booklet",
+            "url": "https://ithandbook.ffiec.gov/it-booklets/business-continuity-management/"
+          },
+          {
+            "title": "NIST SP 800-34 Rev. 1 – Contingency Planning Guide for Federal Information Systems",
+            "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-34r1.pdf"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "ISO 27002:2022 Control 5.29 – Information Security During Disruption",
+            "url": "https://www.isms.online/iso-27002/control-5-29-information-security-during-disruption/"
+          },
+          {
+            "title": "FFIEC Annual Report 2020 – Pandemic Business Continuity Lessons",
+            "url": "https://www.ffiec.gov/PDF/annrpt20.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "question": "How do you ensure the security of the software development lifecycle, from writing secure code to separating development, testing, and production environments?",
+      "answer_set": [
+        "Developers have no security training, and all work is done in a single, shared environment.",
+        "We have some informal coding guidelines, but no security testing. Development and production environments are logically separated.",
+        "Secure coding principles are defined and developers are trained. Development, test, and production environments are physically or virtually separated. Some security testing is performed before release.",
+        "A formal Secure Development Life Cycle (SDLC) is implemented. This includes mandatory secure coding training, static/dynamic application security testing (SAST/DAST), managed access to source code, and strictly enforced separation and change management for all environments."
+      ],
+      "relevant_controls": [
+        {
+          "control_no": "8.25",
+          "title": "Secure development life cycle",
+          "description": "Secure development rules shall be established and applied for software and systems."
+        },
+        {
+          "control_no": "8.28",
+          "title": "Secure coding",
+          "description": "Secure coding principles shall be enforced."
+        },
+        {
+          "control_no": "8.31",
+          "title": "Separation of development, test and production environments",
+          "description": "Development, test, and production environments shall be separated and secured."
+        },
+        {
+          "control_no": "8.32",
+          "title": "Change management",
+          "description": "All changes to information systems shall follow a change management procedure."
+        }
+      ],
+      "priority": "High",
+      "references": {
+        "question_relevance": [
+          {
+            "title": "Secure Development Life Cycle Guidance for Financial Services (NIST NCCoE)",
+            "url": "https://www.nccoe.nist.gov/financial-services/secure-software-development"
+          },
+          {
+            "title": "OWASP SAMM v2 – Software Assurance Maturity Model",
+            "url": "https://owaspsamm.org/model"
+          }
+        ],
+        "priority_justification": [
+          {
+            "title": "NIST SP 800-218 – Secure Software Development Framework (SSDF)",
+            "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-218.pdf"
+          },
+          {
+            "title": "ISO 27002:2022 Control 8.25 – Secure Development Life Cycle",
+            "url": "https://www.isms.online/iso-27002/control-8-25-secure-development-life-cycle/"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1915 @@
+# Survey Question and Answer Analysis
+
+This document lists every survey question and all its unique answers found across all company datasets.
+
+**Your Task:** For each question, review the unique answers and decide which ones should be considered 'Negative' (meaning the control is NOT met). All other answers will be considered 'Positive'.
+
+---
+
+## 1. (Optional) Has your business ever experienced a cybersecurity issue
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Yes
+- No
+- Not Sure
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 2. Do you have a plan to respond to cybersecurity breaches?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Yes
+- No
+- Maybe
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 3. Does your business have a dedicated IT or cybersecurity team?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- In-House
+- Outsourced
+- No-Team
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 4. Does your business have a documented and tested cybersecurity incident response plan that outlines clear roles, escalation procedures, and communication strategies?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Yes
+- No
+- Not Sure
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 5. Does your business have a formal cybersecurity policy in place?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Yes
+- No
+- Maybe
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 6. Does your business keep up with news or alerts about cybersecurity threats?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Yes
+- No
+- Maybe
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 7. Does your business store or process sensitive data (e.g., personal, financial, health)?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Yes
+- No
+- Maybe
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 8. How are cryptographic controls, like encryption, applied to protect patient data both when it is stored (at rest) and when it is being transmitted (in transit)?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive encryption policy is enforced. All PHI is encrypted at rest (on servers, databases, backups) and in transit (both internally and externally) using strong, industry-standard algorithms. Key management processes are formally documented and secured.
+- A policy for cryptography is defined. All laptops are encrypted, and data is encrypted in transit over public networks. Some databases containing PHI are encrypted.
+- Encryption is used for some external communications (e.g., website) but not for data stored in our databases or on servers.
+- We do not use encryption for patient data.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 9. How are cryptographic controls, such as encryption and data masking, used to protect sensitive customer and transactional data both at rest and in transit?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A policy for the use of cryptography is in place. Sensitive data is encrypted at rest in databases and in transit over public networks. Data masking is used in test environments.
+- Comprehensive cryptographic controls are implemented based on data classification. This includes strong encryption for all data at rest and in transit, robust key management processes, data masking for non-production use, and regular reviews of cryptographic standards.
+- Encryption is used in some specific instances (e.g., website HTTPS) but not as a general policy for sensitive data.
+- We do not use encryption or other cryptographic controls.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 10. How are information security roles, responsibilities, and segregation of duties defined and enforced within your organization, particularly for handling sensitive financial data and transactions?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- All information security roles are formally defined
+- Key roles and responsibilities are documented
+- Responsibilities are informally understood
+- allocated
+- and a formal policy for segregation of duties exists for critical financial functions.
+- and integrated into job descriptions. Conflicting duties (e.g.
+- potentially conflicting duties.
+- staff perform multiple
+- transaction initiation and approval) are strictly segregated and enforced through technical and procedural controls.
+- Roles and responsibilities are not formally defined
+- but not documented. Segregation of duties is attempted but not systematically enforced.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 11. How concerned are you about cybersecurity threats affecting your business?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Neutral
+- Somewhat concerned
+- Very concerned
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 12. How do you classify and protect sensitive customer data (e.g., PII, order history, addresses) and intellectual property (e.g., product designs)?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- All data is classified, labelled, and protected based on its type. We enforce strict handling rules, especially for PII, and have procedures to protect our intellectual property rights from infringement.
+- We have a data classification policy. Rules for acceptable use and transfer of sensitive data are documented and communicated to employees.
+- We recognize that customer data is sensitive, but we lack formal policies for its classification, acceptable use, or secure transfer.
+- We do not classify data or have specific rules for handling customer information.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 13. How do you control and manage administrative access to your e-commerce platform's backend, servers, and customer databases?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Access rights are based on job function (e.g., marketing, order fulfillment, developer) following a documented access control policy. Strong authentication is required for admins.
+- We enforce the principle of least privilege using strict role-based access control (RBAC). All access is logged, and privileged sessions are monitored. Authentication for admins requires multi-factor authentication (MFA).
+- We use shared administrative credentials for backend access.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 14. How do you ensure any software your firm develops or customizes is secure, and that development and production environments are properly separated and managed?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- A formal Secure Development Lifecycle (SDLC) is followed. It includes security requirements
+- We apply secure coding principles and separate dev/test/production environments. A change management process is in place for production systems.
+- and strict separation and change control for all environments. Outsourced development is directed and monitored.
+- automated security testing
+- secure coding
+- We have no security process for development
+- environments are not separated.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 15. How do you ensure employees and contractors understand their security responsibilities, particularly when handling customer data or working remotely?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We have an annual security awareness training program and a remote working policy that requires use of a VPN. NDAs are signed by all staff.
+- We run a continuous security awareness program with e-commerce specific modules (e.g., phishing, social engineering). Our remote work policy includes strict security requirements for all devices, and NDAs are systematically managed.
+- Security is mentioned once during onboarding but there is no ongoing training or formal remote work policy.
+- We provide no security awareness training.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 16. How do you ensure that all personnel, from executives to on-site crews, undergo appropriate background checks and understand their information security responsibilities?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A formal screening process is applied to all personnel based on their role and access to sensitive information. Security responsibilities are included in contracts, and regular, role-based security training is provided to everyone, including specific guidance for on-site risks.
+- Background verification checks are carried out for all candidates prior to joining. All staff receive basic security awareness training.
+- Background checks are conducted for office staff only. Security is not formally discussed with on-site teams.
+- We do not perform background checks or provide security training.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 17. How do you ensure that any software or firmware you develop, either for your products or for internal use, is created using secure development practices?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A formal Secure Development Lifecycle (SDLC) is applied to all development. This includes defining security requirements, secure coding, security testing, and secure change management for all environments. Access to source code is strictly managed.
+- We have defined secure coding principles and separate development, test, and production environments. Some security testing is performed pre-release.
+- Developers follow informal best practices, but there is no security testing. Development and production environments are not separated.
+- We have no security requirements for software development.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 18. How do you ensure that third-party service providers (e.g., member management software, payment processors, cleaning services) operate securely and protect your data?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We have a formal process to assess the security of all key suppliers. Our agreements contain specific information security requirements that are agreed upon before services begin.
+- We review the security practices of critical providers and include basic security and privacy clauses in our agreements.
+- We select providers based on features and cost, without a formal security review.
+- We have informal discussions about security with some providers, but it is not a contractual requirement.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 19. How do you ensure the continuous availability of critical educational and administrative services (e.g., LMS, online enrollment, email) during a disruption?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A business continuity plan is in place for critical services. Data backups are regularly performed and tested for restorability. We have some redundant infrastructure.
+- We have a comprehensive, tested ICT readiness plan that ensures business continuity. It includes redundant systems for critical platforms, automated and verified backups, and clear procedures to maintain operations during any disruption.
+- Backups are performed inconsistently and are not tested. We do not have a formal continuity plan for our core educational platforms.
+- We have no business continuity plan or data backup strategy.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 20. How do you ensure the secure disposal of physical and digital assets (e.g., old hard drives, servers, paper records) that contain patient information?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A formal policy requires secure wiping of all electronic media. Paper records are shredded.
+- We perform a basic ‘delete’ or ‘format’ on electronic media before disposal.
+- We use a certified third-party service for the physical destruction (e.g., shredding, degaussing) of all media containing PHI, in line with standards like NIST 800-88. A certificate of destruction is retained for audit purposes.
+- Assets are disposed of through standard waste channels with no data removal.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 21. How do you ensure the security of the software development lifecycle, from writing secure code to separating development, testing, and production environments?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A formal Secure Development Life Cycle (SDLC) is implemented. This includes mandatory secure coding training, static/dynamic application security testing (SAST/DAST), managed access to source code, and strictly enforced separation and change management for all environments.
+- Secure coding principles are defined and developers are trained. Development, test, and production environments are physically or virtually separated. Some security testing is performed before release.
+- Developers have no security training, and all work is done in a single, shared environment.
+- We have some informal coding guidelines, but no security testing. Development and production environments are logically separated.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 22. How do you ensure your organization identifies and complies with all legal, regulatory (e.g., GDPR, PCI-DSS), and contractual requirements related to information security and PII protection?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A process is in place to identify and document relevant legal and contractual requirements, including those for PII. Compliance is reviewed periodically.
+- We maintain a comprehensive register of all legal, statutory, regulatory, and contractual requirements, which is regularly updated. Proactive processes and independent reviews are in place to ensure ongoing compliance.
+- We are aware of some major regulations but do not have a formal process to document and ensure compliance.
+- We are not actively tracking legal or regulatory requirements relevant to our operations.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 23. How do you identify, classify, and protect patient records and other sensitive information assets throughout your organization?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A complete, centrally managed inventory of all information assets exists. All data is classified, labelled (digitally and/or physically), and protected according to comprehensive acceptable use and information transfer policies based on its classification.
+- We maintain an inventory of information assets with assigned owners. A data classification policy (e.g., Public, Internal, PHI/Confidential) is defined and applied to key data.
+- An informal inventory exists for key systems like the EHR, but there are no formal rules for data handling, classification, or labelling.
+- We do not maintain a formal inventory of information assets or have a data classification scheme.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 24. How do you manage employee and contractor security, from background screening and contractual agreements to securing remote access, especially to sensitive OT systems?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A robust HR security process is in place, including ongoing screening for sensitive roles. Secure remote access to OT systems is strictly forbidden or heavily controlled and monitored (e.g., via a jump host in a DMZ).
+- Background checks are standard for all employees. Employment agreements contain security clauses. Remote access to the IT network is secured via VPN.
+- Background checks are performed for office staff only. Security responsibilities are not formally defined in contracts.
+- We do not perform background checks or have security clauses in employment contracts. Remote access is not secured.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 25. How do you manage information security risks associated with third-party services like payment gateways, cloud hosting providers, and marketing or analytics plugins?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We have a comprehensive supplier risk management program. This includes security assessments for all ICT supply chain partners, mandatory security clauses in agreements, and regular monitoring of their security posture.
+- We perform due diligence and include information security requirements in our contracts with critical suppliers (e.g., payment gateways, hosting).
+- We use third-party services but do not include specific security requirements in our agreements with them.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 26. How do you manage security related to your staff, from background checks before hiring to securing their access when they work remotely (e.g., a manager accessing schedules from home)?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A formal screening process is applied to all personnel based on their role. We have a robust remote working policy with enforced technical controls (e.g., VPN, multi-factor authentication) for any access to member or business data from outside the facility.
+- Background screening is a standard part of our hiring process for all staff. We have a formal remote working policy that requires secure access methods.
+- Background checks are conducted for some, but not all, roles. Remote work is allowed but there are no specific security measures enforced.
+- We do not perform background checks, and we have no security policy for remote work.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 27. How do you manage system security, including malware protection and vulnerability patching, for both office workstations and industrial control systems (e.g., HMIs, SCADA servers)?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive vulnerability management program covers both IT and OT. Systems are securely configured, protected with appropriate anti-malware (e.g., application whitelisting for OT), and patched according to a risk-based schedule approved by operations.
+- Anti-malware and patching are managed for IT systems, but OT systems are not touched due to uptime concerns.
+- We have managed anti-malware and patching for IT. For OT, we use compensating controls (e.g., network isolation) where patching is not feasible.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 28. How do you manage the full lifecycle of user access to client data and internal systems, from onboarding a new employee to their departure?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- A formal process exists for provisioning/de-provisioning access based on roles. A 'leaver' process includes returning company assets. Privileged access is restricted.
+- An automated IAM system enforces role-based access control and least privilege. Access rights are provisioned
+- User accounts are created and removed manually. Access is granted on request
+- We use shared or generic accounts
+- and revoked immediately and automatically based on employment status. A formal process ensures all assets are returned upon termination.
+- reviewed
+- access is not revoked promptly upon termination.
+- and reviews are infrequent. Assets are not always returned upon termination.
+- not by role
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 29. How do you manage the human element of security, including background checks, confidentiality agreements, security training, and securing a remote/mobile workforce?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A robust HR security process is in place (screening, contracts, disciplinary process). We manage NDAs systematically, run a continuous security awareness program, and secure remote work through centrally managed technical controls (MDM, VPN, etc.).
+- Screening is inconsistent. NDAs are used for some roles. Training is ad-hoc, and remote work security is left to the employee.
+- We conduct background screening for all new hires, use confidentiality agreements, and provide annual security awareness training. A formal remote work policy requires use of secure methods.
+- We do not perform screening, use NDAs, provide training, or have a remote work policy.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 30. How do you manage the installation of software and use of administrative tools on both office computers and on-site operational systems?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A strict policy and technical controls are in place to manage all software installations. The use of programs with privileged access is tightly restricted, logged, and controlled across all company systems, both in the office and on-site.
+- Users can install any software they want and have full administrative rights on their computers.
+- We have documented procedures to manage software installation on operational systems, and the use of privileged utility programs is restricted.
+- We have procedures for office systems, but on-site computers are unmanaged.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 31. How do you manage the security risks associated with your supply chain, including both ICT suppliers (software, cloud) and suppliers of physical components for your products?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A holistic supply chain risk management program is in place. It includes security vetting for all critical suppliers (ICT and physical), mandatory security clauses in agreements, and ongoing monitoring of their security performance.
+- We have a process to assess and include security requirements in contracts with critical ICT suppliers. Risks in the physical supply chain are considered informally.
+- We assess some IT suppliers, but do not consider the security risks from the physical component supply chain.
+- We do not conduct security assessments of any of our suppliers.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 32. How do you manage user access to corporate and project management systems, and ensure that access is removed promptly when an employee or subcontractor leaves a project?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- A formal process exists for managing user identities and access rights based on project roles. Access is reviewed periodically and removed upon termination.
+- Unique accounts are used
+- We use a centralized Identity Management system to control access to all project data. The full lifecycle of identities is managed
+- We use shared accounts for project teams
+- and de-provisioning is a slow
+- manual process.
+- with access rights provisioned and revoked automatically based on project assignment and employment status.
+- access is not removed promptly upon project completion.
+- but access rights are not based on a formal role
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 33. How do you manage user identities and control access for a diverse population (students, faculty, staff, alumni, guests) across various systems like the SIS, LMS, and library databases?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- A formal Identity and Access Management (IAM) process is in place. Access is role-based (e.g.
+- Unique accounts are created
+- We use an automated IAM system that integrates with our SIS and HR systems. It enforces the principle of least privilege
+- We use shared accounts for some groups
+- automated de-provisioning.
+- but access rights are broad and inconsistently removed upon departure or graduation.
+- instructor) and provisioned/de-provisioned based on enrollment/employment status.
+- student
+- with regular access reviews and immediate
+- access rights are not based on specific roles.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 34. How do you monitor and audit activities within your networks and systems, particularly to detect unauthorized access to patient records?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We use a Security Information and Event Management (SIEM) system to aggregate, protect, and analyze logs in near real-time. Automated alerts are configured to detect and flag suspicious activities, such as inappropriate access to patient data, for immediate investigation.
+- Logs are generated by systems but are not centralized, protected, or regularly reviewed.
+- We centralize logs from critical clinical systems and network devices. We perform periodic, manual reviews for anomalous activity.
+- We do not collect or review system logs.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 35. How do you protect member and business records (digital and physical) and control the software installed on your computer systems?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Formal policies and technical controls are in place to protect all records from loss, unauthorized access, or release. The installation of all software is managed by a secure procedure, and the use of privileged administrative tools is tightly restricted and controlled.
+- We have procedures to protect physical and digital records. We also have a process to manage what software can be installed on operational systems.
+- Records are not specifically protected from loss or unauthorized access. Staff can install any software on company computers.
+- Sensitive records are kept in locked offices, but digital records lack specific protection. Software installation is not formally managed.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 36. How do you protect patient data when accessed by staff working remotely or on mobile/endpoint devices?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- A formal remote work policy exists. All remote access is via a secure VPN
+- Secure remote access is managed through a Zero Trust architecture. All endpoint devices (company or BYOD) must meet strict security compliance checks (encryption
+- and company-provided devices are equipped with antivirus and are encrypted.
+- anti-malware) before being granted access to any clinical information.
+- patching
+- staff use personal devices without any controls.
+- There are no security measures for remote work
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 37. How do you protect valuable equipment, materials, and temporary site offices from unauthorized access, damage, or disruption to supporting utilities like power?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A formal security plan covers all on-site assets. This includes secure siting and protection of equipment and trailers, security for cabling and supporting utilities, and measures for working securely within designated areas.
+- Equipment and site offices are left unsecured without specific protections.
+- We have procedures for securing site offices and facilities. Equipment is sited to minimize risk, and we have plans for temporary power if utilities are disrupted.
+- High-value equipment is locked when not in use, but there are no formal procedures for its protection or for securing temporary facilities.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 38. How do you secure your network infrastructure, specifically by segregating different user groups (e.g., student Wi-Fi, administrative LAN, research networks)?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- All users and systems are on a single, flat network.
+- We enforce a strict network segmentation architecture. Firewalls control traffic flow between all segments, access is logged and monitored, and security policies are applied based on the trust level of each network zone.
+- We have a separate guest Wi-Fi, but all internal users (student, faculty, admin) share the same network.
+- We use network segmentation (e.g., VLANs) to separate student, administrative, and sensitive research networks.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 39. How do you secure your physical manufacturing facilities, including defining security perimeters, controlling access to the plant floor, and protecting equipment from environmental threats?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A multi-layered physical security strategy is implemented, including monitored perimeters, strict access control to secure areas (plant floor, data centers), protection against environmental threats, and secure equipment siting and maintenance schedules.
+- The plant has defined physical security perimeters with access controls. Equipment is protected from common environmental threats and maintenance is scheduled.
+- Access to the building is controlled, but there are no specific security measures for the production areas, equipment, or cabling.
+- There are no defined security perimeters or formal access controls to the plant floor.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 40. How do you use cryptography to protect customer credentials and sensitive data (e.g., payment tokens) both in transit and at rest?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- A comprehensive cryptography policy is enforced. We use strong
+- Our website uses HTTPS (encryption in transit)
+- TLS 1.2+) for all data in transit and encryption for data at rest. We use modern
+- We enforce HTTPS for all traffic. We have a policy for using cryptography
+- and we hash customer passwords and encrypt other sensitive data at rest.
+- customer passwords are stored in plaintext.
+- industry-standard encryption (e.g.
+- salted password hashing algorithms and have secure key management processes.
+- We do not use cryptography
+- but we do not encrypt sensitive data stored in our database.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 41. How does your company establish and enforce information security policies, and ensure management and all personnel, including on-site subcontractors, understand their responsibilities?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive set of security policies is defined, approved, and communicated to all personnel and relevant interested parties (including subcontractors). Management actively enforces these policies at all locations, both office and on-site.
+- Information security policies are defined and approved by management. All personnel, including site supervisors, are required to apply them.
+- Policies exist for head office staff, but they are not communicated to or enforced for on-site personnel or subcontractors.
+- We have no formal, written information security policies.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 42. How does your company plan for and maintain operations and information security during a major disruption, such as a site shutdown, supply chain failure, or cyberattack?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We have a business continuity plan that covers major disruptions. We plan how to maintain an appropriate level of information security during these events.
+- We have a comprehensive, tested business continuity and crisis management plan. This plan specifically addresses how to maintain information security, protect assets, and recover operations efficiently during any significant disruption.
+- We have no formal plan to manage security or continue operations during a disruption.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 43. How does your firm establish its information security framework,...g policies, allocating roles, and ensuring management oversight?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Policies are defined, approved, and communicated. Key security roles and responsibilities are allocated. Management requires personnel to follow policies.
+- A comprehensive ISMS is in place with a full suite of policies, formally defined and allocated roles, and active management engagement. Policies are regularly reviewed and acknowledged by all personnel.
+- Policies exist but are outdated, not approved by management, or poorly communicated. Roles are informally understood.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 44. How does your firm manage security risks associated with suppliers, subcontractors, and cloud service providers who may handle or have access to client data?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive supplier risk management program is in place. It includes mandatory security assessments, contractual security clauses, ongoing monitoring, and specific processes for acquiring and managing cloud services securely.
+- We perform due diligence and include baseline security requirements in agreements with key suppliers. We have a policy for the use of cloud services.
+- Security is discussed informally with critical suppliers, but requirements are not included in contracts. Cloud services are used without a formal security review.
+- We do not perform security assessments of our suppliers or cloud providers.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 45. How does your firm manage the lifecycle of user identities and access rights to financial systems and data, from onboarding to termination?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A formal process exists for provisioning and de-provisioning access based on roles. Access rights are reviewed periodically (e.g., quarterly).
+- Access is granted using shared or generic accounts, and rights are rarely revoked upon termination.
+- We use an automated Identity and Access Management (IAM) system that enforces role-based access control (RBAC) and the principle of least privilege. Access rights are provisioned automatically upon hiring, reviewed regularly, and revoked immediately upon termination.
+- User accounts are created and removed manually. Access rights are granted based on request, not a formal role, and reviews are infrequent.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 46. How does your fitness center's management establish and enforce security policies to protect member data and business operations, and how is compliance reviewed?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive set of security policies is defined, approved by management, and enforced for all staff. Compliance is regularly reviewed, and the overall security approach is subject to independent review.
+- Management has defined and approved key security policies. Compliance with these policies is checked periodically.
+- Policies exist but are not consistently enforced by management, and compliance is not formally reviewed.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 47. How does your healthcare organization manage its legal, regulatory, and contractual obligations, especially concerning the privacy and protection of Protected Health Information (PHI)?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A process is in place to identify and document all relevant legal and PII/PHI protection requirements. Compliance is reviewed annually.
+- We maintain a comprehensive and continuously updated register of all legal and regulatory requirements. We have a dedicated privacy officer, and compliance is integrated into our processes and verified through independent audits.
+- We do not have a formal process for tracking healthcare-specific regulations like HIPAA.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 48. How does your institution govern the protection of sensitive data, specifically student records (PII) and academic research (IP), in compliance with regulations like FERPA or GDPR?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A formal data governance framework exists. We classify student and research data, and have acceptable use and transfer policies. We track relevant legal and regulatory requirements.
+- We have a comprehensive data governance program led by a dedicated officer (e.g., DPO). All sensitive data is classified, labelled, and protected according to strict policies. Compliance is regularly audited.
+- We are aware of privacy regulations, but policies for data classification, handling, and transfer are not formally documented or enforced.
+- We do not have a formal data governance program or policies for protecting student or research data.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 49. How does your institution manage the security risks associated with acquiring and using third-party software and cloud-based EdTech services?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We have a formal supplier risk management program. All third-party services undergo a security and privacy review before acquisition, and agreements include specific security, privacy, and data ownership clauses.
+- We have a process to review and include security requirements in contracts for major third-party services.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 50. How does your organization establish and maintain its information security governance framework, ensuring management approval, communication to staff, and regular reviews?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Information security policies are defined, approved by management, and communicated to staff. Reviews happen, but on an ad-hoc basis.
+- A comprehensive set of security policies is defined, approved, published, and regularly reviewed (at least annually or upon significant change). All personnel are required to formally acknowledge them.
+- Policies exist but are not formally approved by management, are outdated, or are not communicated effectively to all personnel.
+- We have no formally documented information security policies.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 51. How does your organization govern information security, with policies and roles covering both corporate IT environments and the plant floor (Operational Technology)?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A unified security governance framework covers the entire organization (IT and OT). Policies are approved, communicated, and regularly reviewed by management. Compliance is verified through independent audits.
+- We have separate or integrated policies for IT and OT. Roles are defined, and management requires personnel to follow them, with periodic compliance reviews.
+- Policies exist for corporate IT, but they do not extend to the plant floor or OT systems.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 52. How does your organization manage information security risks associated with third-party suppliers, from initial due diligence to ongoing monitoring?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive supplier risk management program is in place. It includes mandatory security assessments, contractual security clauses, regular monitoring of supplier performance, and management of risks in the ICT supply chain.
+- We perform due diligence on new suppliers and include baseline security requirements in our agreements. Monitoring is informal and infrequent.
+- Security is discussed with critical suppliers, but requirements are not included in contracts and there is no ongoing monitoring.
+- We do not perform security assessments of our suppliers, even those handling sensitive financial data.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 53. How does your organization manage sensitive data on physical storage media and ensure the secure disposal or re-use of equipment containing financial information?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A formal policy exists for managing storage media throughout its lifecycle. Equipment is wiped using standard software before disposal or re-use.
+- All storage media is managed based on its data classification. A certified data destruction process (e.g., degaussing, physical shredding) is used for all media containing sensitive financial data, and a certificate of destruction is retained.
+- Storage media and old equipment are disposed of without any data removal process.
+- We attempt to delete files from equipment before disposal, but there is no formal or verified process.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 54. How does your organization plan for and respond to information security incidents, particularly those involving a potential breach of patient data?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A formal incident response plan exists with defined roles and responsibilities. We assess events to classify them as incidents and follow a documented response process.
+- We have a comprehensive, well-tested incident response plan. This includes 24/7 detection, a dedicated response team, playbooks for PHI breaches, and forensically sound evidence collection procedures to meet legal and regulatory requirements.
+- We do not have a documented incident response plan.
+- We respond to incidents on an ad-hoc basis with no defined roles or procedures for evidence collection.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 55. How does your organization prepare for and respond to security incidents, such as a customer data breach, denial-of-service attack, or payment fraud?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We have a documented incident response plan and a clear channel for employees to report events. We assess events to determine if they are critical incidents.
+- We have a tested incident response plan with specific playbooks for e-commerce threats. We use logging and monitoring tools to detect incidents, and all responses are documented to support post-incident analysis and improvement.
+- We react to incidents as they happen but lack documented procedures or defined roles.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 56. How does your organization stay informed about security threats and maintain contact with relevant authorities or industry groups?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We actively maintain contact with relevant authorities (e.g., local police for physical security) and special interest groups (e.g., fitness industry associations) to stay informed about relevant physical and cyber threats.
+- We subscribe to some security newsletters or bulletins and have contact information for local law enforcement.
+- We do not actively seek threat information or maintain such contacts.
+- We may hear about threats through general news but have no formal process to analyze them or established contacts.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 57. How frequently does your business review or update its cybersecurity policies?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Annually
+- Quarterly
+- Yes
+- No
+- Whenever-Required
+- Unknown
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 58. How likely is your business to improve cybersecurity in the next 12 months?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Somewhat Likely
+- Very Likely
+- Not Likely
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 59. How often does your business review cybersecurity risks?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Yes
+- No
+- Maybe
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 60. If yes, which types of incidents occurred? (Select all that apply):
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- Backup
+- Firewall
+- GDPR Compliance
+- Phishing
+- Not Applicable
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 61. What are the most pressing cybersecurity challenges currently faced by your business? (Select all that apply)
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- Backup
+- Compliance Complexity
+- Employee Awareness
+- Firewall
+- GDPR Compliance
+- Insufficient Budget
+- Limited Expertise
+- Ops Integration
+- Phishing
+- Not Applicable
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 62. What impact did the cybersecurity incident(s) have on your business?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- Backup
+- Firewall
+- GDPR Compliance
+- Minimal Impact
+- Phishing
+- Not Applicable
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 63. What is the size of your business?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Medium
+- Micro
+- Micro
+- Small
+- Small
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 64. What is your approach to identifying, classifying, and handling information assets, particularly customer financial data and intellectual property?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive, up-to-date inventory of all information assets is maintained. All data is classified, labelled, and handled according to formal acceptable use and information transfer rules based on its classification level.
+- We maintain an inventory of key information assets with assigned owners. A classification scheme (e.g., Public, Internal, Confidential, Restricted) is defined and applied to major datasets.
+- An informal inventory of assets exists. Some sensitive data is recognized, but there are no formal rules for its acceptable use or handling.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 65. What is your approach to identifying, classifying, and protecting client data and your firm's own intellectual property?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive, up-to-date inventory of all information assets is maintained. All data is classified, labelled, and protected according to formal policies for acceptable use, transfer, and handling, based on its sensitivity.
+- We maintain an inventory of key information assets with assigned owners. A data classification scheme is defined and applied to client and internal data, with acceptable use rules.
+- An informal inventory exists for major assets. We understand some data is sensitive, but have no formal rules for its handling or use.
+- We do not maintain an asset inventory or have a data classification scheme.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 66. What is your approach to managing access for members and staff, covering both physical entry to the facility and logical access to member management systems?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Access is managed informally with physical keys or shared codes. We use shared logins for our software.
+- An integrated system manages both physical and logical access based on defined roles. The full lifecycle of identities is managed, with access rights automatically provisioned and revoked based on membership/employment status.
+- Formal policies control physical access (e.g., differentiating member, staff, and restricted areas) and logical access to software is based on job roles.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 67. What is your approach to managing intellectual property (e.g., designs, formulas, patents) and maintaining an inventory of critical assets, including production machinery and control systems?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive inventory of all information and OT assets is maintained. All data is classified, labelled, and handled according to its sensitivity. Proactive legal and technical controls are in place to protect all intellectual property.
+- We maintain inventories for both IT and OT assets with assigned owners. We have defined procedures to protect key intellectual property and classify critical data.
+- We do not maintain a formal inventory of assets and have no specific procedures to protect intellectual property.
+- We have an inventory of IT assets, but OT assets are not included. IP protection is reactive.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 68. What is your approach to managing security for personnel and the thousands of user-owned devices (BYOD) connecting to the campus network?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A robust HR security process is in place (screening, contracts, disciplinary process). We use Network Access Control (NAC) to enforce security requirements (e.g., patching, anti-malware) on all devices before they can connect. We run a continuous, engaging security awareness program.
+- We perform background screening for staff. We provide a secure remote working solution and have a policy for endpoint device security. We conduct annual security awareness training.
+- We do not perform background checks on staff or have any security controls for personal devices on the network.
+- We have a guest Wi-Fi network but no policies or security measures for staff or student devices on the main network. Security training is not provided.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 69. What is your approach to managing the full lifecycle of user access to clinical systems and patient data (e.g., EHR/EMR), from onboarding a new clinician to offboarding?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- A mature Identity and Access Management (IAM) system is in place
+- Role-based access control (RBAC) is implemented for major clinical systems. Access rights are provisioned and removed based on formal HR processes
+- Unique user accounts are provided
+- We use shared or generic accounts for accessing clinical systems
+- and automatically revoked upon employment change or termination.
+- and privileged access is restricted.
+- billing)
+- enforcing the principle of least privilege for all staff. Access is based on specific job roles (e.g.
+- nurse
+- often delayed
+- physician
+- process.
+- regularly reviewed
+- access is not role-based.
+- but access rights are broad and not strictly based on job function. Access removal upon termination is a manual
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 70. What is your firm's process for handling the full lifecycle of information security incidents, from initial detection and assessment to response and forensic evidence collection?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- An incident response plan is documented with defined roles. Events are assessed to determine if they are incidents, and a response is coordinated.
+- We have a comprehensive, tested incident management plan. This includes 24/7 monitoring, formal event assessment, documented response procedures, and forensically sound evidence collection processes.
+- We react to incidents as they occur but lack a documented process, defined roles, or evidence collection procedures.
+- We have no formal incident response plan.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 71. What is your firm's strategy for data backup, disaster recovery, and ensuring ICT readiness for business continuity?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive business continuity and disaster recovery strategy is in place. It includes fully redundant systems, automated backups that are regularly tested for restorability, and a full DR exercise conducted at least annually to ensure ICT readiness.
+- Regular, automated backups are performed and stored off-site. A business continuity plan is documented and key ICT systems have identified recovery objectives (RTO/RPO).
+- We have no data backup or business continuity plans.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 72. What is your institution's process for handling security incidents, from initial reporting to resolution, and how do you ensure lessons are learned to prevent recurrence?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A documented incident response plan exists with defined roles. We have a formal process for event reporting, assessment, and response. Post-incident reviews are conducted for major incidents.
+- Incidents are handled reactively by the IT team as they are discovered. There is no formal post-incident review.
+- We have a dedicated, well-tested incident response plan with playbooks for specific scenarios (e.g., student data breach). All incidents are tracked, and knowledge gained is formally fed back into our security controls and awareness training programs.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 73. What is your process for ensuring the e-commerce platform itself is developed and maintained securely, from initial code to deployment and testing?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- A comprehensive DevSecOps approach is integrated into our CI/CD pipeline. This includes mandatory secure coding principles
+- We have a defined Secure Development Lifecycle (SDLC) with secure coding standards and perform security testing (e.g.
+- We have informal coding guidelines
+- and the use of properly sanitized and protected test data.
+- developers code without specific security guidelines.
+- static/dynamic security testing (SAST/DAST)
+- vulnerability scans) before deployment.
+- We have no formal secure development process
+- but no dedicated security testing is performed before features go live. Test data is not managed securely.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 74. What is your process for managing changes to critical IT systems (like the SIS or LMS) and ensuring development, testing, and production environments are kept separate?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- A formal change management process is followed for critical systems. Development
+- An ITIL-based change management process is strictly enforced. Environments are securely separated
+- Changes are made directly to production systems
+- and all changes are tested and approved before deployment. We use properly sanitized or generated data for testing to protect student privacy.
+- and production environments are separated. Test data is managed.
+- test
+- we do not have separate environments.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 75. What is your process for managing security in relationships with third-party subcontractors, architects, and suppliers, especially regarding access to project data and site plans?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Our standard supplier and subcontractor agreements include baseline information security requirements and confidentiality clauses.
+- We have a formal process for addressing information security within all supplier agreements. This includes specific requirements for data handling, access control, and incident reporting, tailored to the sensitivity of the project information being shared.
+- We have informal discussions about confidentiality but lack formal, contractual security clauses.
+- We do not include security requirements in our agreements with subcontractors or partners.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 76. What is your strategy for business continuity and disaster recovery to ensure critical clinical systems remain available and patient care is not disrupted?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive and regularly tested business continuity and disaster recovery strategy is implemented. This includes redundant infrastructure, tested data backups with verified RTO/RPOs, and clear plans to maintain patient care during any disruption.
+- Regular, automated backups of critical systems (EHR, etc.) are performed. A business continuity plan with defined RTO/RPOs is in place and is tested periodically.
+- Backups are performed inconsistently and are not tested for restorability. A continuity plan may exist but is outdated.
+- No formal business continuity or data backup plans exist.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 77. What is your strategy for business continuity and operational resilience, specifically to ensure production can withstand or recover from a significant disruption?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A comprehensive and tested operational resilience strategy is in place. This includes redundant production capabilities, fully tested recovery plans for IT/OT systems, and proactive capacity management to ensure sustained production levels.
+- We have a business continuity plan that covers critical production processes. Backups for key IT and OT systems are performed and tested. We have some redundancy for critical utilities.
+- Backups are performed for IT systems, but not for OT systems. A continuity plan may exist but is not tested.
+- We have no business continuity plan or data backups for production systems.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 78. What is your strategy for business continuity to ensure you can continue to serve clients and protect their data during a major disruption?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A business continuity plan is documented, and ICT readiness is planned. Regular, automated backups are performed and stored securely.
+- A comprehensive, tested business continuity strategy is implemented. This includes redundant infrastructure, tested data backups with verified RTO/RPOs, and clear plans to maintain client service and security during any disruption.
+- Backups are performed inconsistently and are not tested. A continuity plan may exist on paper but is not exercised.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 79. What is your strategy for ensuring your website remains available, performs well under load, and can recover quickly from service disruptions?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Our platform is built on a highly-available, redundant architecture (e.g., load balancers, multiple web servers). We have a tested business continuity/disaster recovery plan, automated backups, and proactive capacity management to handle traffic spikes.
+- We monitor site capacity and performance. Regular, tested backups are in place, and we have redundant components for some critical services.
+- We perform backups but they are not regularly tested. We have no specific capacity management or redundancy.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 80. What measures are in place to manage the human resources aspect of security, including background screening, security clauses in contracts, and awareness training?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A robust HR security process is in place including ongoing screening for sensitive roles, clearly defined security responsibilities in contracts, and a continuous security awareness program with role-specific training and phishing simulations.
+- Background checks are standard procedure, employment contracts include confidentiality and security responsibility clauses, and annual security awareness training is provided.
+- Background checks are conducted for some roles. Security is mentioned during onboarding but not formalized in contracts or regular training.
+- We do not perform background checks, include security responsibilities in contracts, or provide security training.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 81. What measures are in place to secure your networks, especially to segregate the corporate (IT) network from the industrial/plant floor (OT) network?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We follow a defense-in-depth model (e.g., Purdue Model) with strict network segmentation. A demilitarized zone (DMZ) is used to control all traffic between IT and OT networks, and security levels for network services are enforced and monitored.
+- We use firewalls and VLANs to create a basic level of segregation between our corporate and industrial networks.
+- Our IT and OT systems are on the same, flat network with no segmentation.
+- We have a firewall at the internet edge, but no internal segmentation between IT and OT.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 82. What measures are in place to secure your physical construction sites, including controlling entry, monitoring the premises, and protecting against theft or environmental damage?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A multi-layered physical security plan is implemented for each site. This includes defined and monitored perimeters, strict entry controls, continuous surveillance (e.g., CCTV), and measures to protect assets from both theft and environmental threats.
+- We define and enforce physical security perimeters (e.g., fencing), control entry points for workers and vehicles, and have basic monitoring (e.g., security patrols).
+- Job sites are open with no specific security measures in place.
+- Sites are fenced, but there is no formal entry control or monitoring.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 83. What plans are in place to ensure your gym can continue to operate and maintain security during a major disruption, such as a power outage or a failure of your primary software systems?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We have a documented plan for key disruptions (e.g., power, internet outage) and we perform regular, tested data backups for our member management system.
+- We have a tested business continuity plan. This includes procedures to maintain security during a disruption, backup power for critical systems (e.g., access control, emergency lighting), and verified data backups.
+- We have no formal plans to handle such disruptions.
+- We react to disruptions as they happen. We may have data backups but do not test them. We have no plan for utility failures.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 84. What security measures are in place to protect data on mobile devices (laptops, tablets, phones) used by project managers and on-site personnel?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- A formal remote work and mobile device policy is in place. Company-provided devices are encrypted and have anti-malware installed.
+- All devices (company-owned or BYOD) accessing project data are managed through a Mobile Device Management (MDM) or Unified Endpoint Management (UEM) solution. This enforces encryption, strong passcodes, remote wipe capabilities, and secure application installation.
+- We have no security policies or controls for mobile devices.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 85. What technical controls are implemented to restrict access to information, protect against malware, and manage system configurations securely?
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- A multi-layered defense is in place including: strict access controls
+- Access to sensitive data is restricted
+- Basic antivirus software is installed
+- advanced endpoint protection (EDR)
+- and automated configuration management to enforce hardened system builds.
+- and secure configurations are defined for key systems.
+- enterprise-grade anti-malware is deployed
+- proactive vulnerability management
+- we rely on default system settings.
+- No specific technical controls are in place
+- but there are no formal processes for access restriction or configuration management.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 86. What technical controls do you use to protect client data, such as data masking, data leakage prevention (DLP), and secure configurations?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We have hardened configurations for servers and endpoints. Data masking is used for some test data, and basic DLP rules are in place.
+- We do not use any of these technical controls.
+- We enforce secure configurations via automation. Comprehensive DLP solutions are used to prevent unauthorized exfiltration of client data. Data masking is required for all non-production environments, and data is deleted when no longer required.
+- We have some secure configuration standards, but do not use data masking or DLP. We may use live client data in test environments.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 87. What technical measures are in place to protect against data leakage and ensure PHI is appropriately masked or de-identified for testing or research?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- We have basic data loss prevention (DLP) rules in place (e.g., blocking emails with health record numbers). We have a process to manually de-identify data for research.
+- We use production PHI in our development and test environments.
+- Comprehensive DLP solutions are deployed to monitor and block unauthorized exfiltration of PHI. Automated data masking and tokenization techniques are used to supply non-production environments with realistic but anonymized data.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 88. What technical security controls are in place to protect your web servers and network from common threats like malware, hacking, and malicious web traffic?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Our servers are hardened with secure configurations. We use a firewall, protect against malware, and have a process to manage technical vulnerabilities. Network services are secured.
+- A multi-layered defense is in place including a Web Application Firewall (WAF), proactive vulnerability management, automated configuration control, network segmentation, web filtering, and real-time monitoring for anomalous activity.
+- We have basic anti-malware on servers, but no formal configuration management or network security rules.
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 89. Where do you get information about cybersecurity threats or best practices? (Select all that apply):
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- IT Providers
+- Internal Monitoring
+- National Agencies
+- Newspapers
+- Not Applicable
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 90. Which cybersecurity measures does your business use? (Select all that apply):
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- Backup
+- Firewall
+- GDPR Compliance
+- MFA
+- Patch Management
+- Phishing
+- Not Applicable
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 91. Which cybersecurity standards does your organization follow? (Select all that apply):
+
+**Type:** Multi-Select (parsed from responses)
+
+**Unique Answers Found:**
+```
+- Backup
+- Firewall
+- GDPR Compliance
+- NIST CSF
+- Phishing
+- Not Applicable
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 92. Would your business benefit from a tailored cybersecurity risk report?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Yes
+- No
+- Maybe
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
+## 93. annual cybersecurity budget?
+
+**Type:** Single-Select
+
+**Unique Answers Found:**
+```
+- Yes
+- No
+- Whenever-Required
+```
+
+**Your Analysis (Please Complete):**
+
+*   **Negative Answers (control NOT met):** [List the answers from above that mean 'No' or failure to comply]
+*   **Positive Answers (control IS met):** [All other answers]
+*   **Notes:** [Any special considerations for this question?]
+
+---
+
